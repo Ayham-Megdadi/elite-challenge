@@ -1897,6 +1897,784 @@
         "أعداد"
       ],
       "status": "active"
+    },
+    {
+      "id": "new-1792675406832",
+      "category": "geography",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما عاصمة المملكة العربية السعودية؟",
+      "options": [],
+      "correctAnswer": "الرياض",
+      "explanation": "الرياض هي عاصمة المملكة العربية السعودية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792675460313",
+      "category": "geography",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما أكبر قارة في العالم من حيث المساحة؟",
+      "options": [],
+      "correctAnswer": "آسيا",
+      "explanation": "آسيا أكبر قارات العالم مساحة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792675519367",
+      "category": "geography",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "في أي قارة تقع دولة البرازيل؟",
+      "options": [],
+      "correctAnswer": "أمريكا الجنوبية",
+      "explanation": "تقع البرازيل في أمريكا الجنوبية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792675542824",
+      "category": "geography",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما عاصمة اليابان؟",
+      "options": [],
+      "correctAnswer": "طوكيو",
+      "explanation": "طوكيو هي عاصمة اليابان.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792675572352",
+      "category": "geography",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "أي نهر يمر بمدينة القاهرة؟",
+      "options": [],
+      "correctAnswer": "النيل",
+      "explanation": "يمر نهر النيل بمدينة القاهرة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792675602592",
+      "category": "geography",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما أكبر دولة في العالم من حيث المساحة؟",
+      "options": [],
+      "correctAnswer": "روسيا",
+      "explanation": "روسيا هي أكبر دول العالم مساحة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792675630623",
+      "category": "geography",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "أي دولة تشتهر بوجود أهرامات الجيزة؟",
+      "options": [],
+      "correctAnswer": "مصر",
+      "explanation": "تقع أهرامات الجيزة في مصر.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792675651599",
+      "category": "geography",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما عاصمة فرنسا؟",
+      "options": [],
+      "correctAnswer": "باريس",
+      "explanation": "باريس هي عاصمة فرنسا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792675690264",
+      "category": "geography",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "أي دولة تقع فيها مدينة مراكش؟",
+      "options": [
+        "تونس",
+        "المغرب",
+        "الجزائر",
+        "موريتانيا"
+      ],
+      "correctAnswer": "المغرب",
+      "explanation": "مراكش مدينة مغربية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792675738655",
+      "category": "geography",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما المضيق الذي يفصل بين إسبانيا والمغرب؟",
+      "options": [
+        "مضيق البوسفور",
+        "مضيق هرمز",
+        "مضيق جبل طارق",
+        "مضيق باب المندب"
+      ],
+      "correctAnswer": "مضيق جبل طارق",
+      "explanation": "يفصل مضيق جبل طارق بين جنوب إسبانيا وشمال المغرب.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792675808024",
+      "category": "geography",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "أي دولة أوروبية عاصمتها ليوبليانا؟",
+      "options": [
+        "سلوفاكيا",
+        "سلوفينيا",
+        "كرواتيا",
+        "صربيا"
+      ],
+      "correctAnswer": "سلوفينيا",
+      "explanation": "ليوبليانا عاصمة سلوفينيا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792675898088",
+      "category": "geography",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "في أي دولة تقع بحيرة بايكال؟",
+      "options": [
+        "روسيا",
+        "منغوليا",
+        "كازاخستان",
+        "فنلندا"
+      ],
+      "correctAnswer": "روسيا",
+      "explanation": "تقع بحيرة بايكال في سيبيريا الروسية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792675936616",
+      "category": "geography",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما عاصمة أوزبكستان؟",
+      "options": [
+        "بخارى",
+        "سمرقند",
+        "طشقند",
+        "عشق آباد"
+      ],
+      "correctAnswer": "طشقند",
+      "explanation": "طشقند عاصمة أوزبكستان.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792675977663",
+      "category": "geography",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "أي نهر يمر ببغداد؟",
+      "options": [
+        "النيل",
+        "الفرات وحده",
+        "دجلة",
+        "الأردن"
+      ],
+      "correctAnswer": "دجلة",
+      "explanation": "تقع بغداد على نهر دجلة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676014864",
+      "category": "geography",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "أي دولة تحدّها البرتغال من الشرق والشمال؟",
+      "options": [
+        "فرنسا",
+        "أندورا",
+        "إيطاليا",
+        "إسبانيا"
+      ],
+      "correctAnswer": "إسبانيا",
+      "explanation": "تجاور البرتغال إسبانيا برًا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676047512",
+      "category": "geography",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما عاصمة إثيوبيا؟",
+      "options": [
+        "أسمرة",
+        "أديس أبابا",
+        "جيبوتي",
+        "كمبالا"
+      ],
+      "correctAnswer": "أديس أبابا",
+      "explanation": "أديس أبابا هي عاصمة إثيوبيا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676082103",
+      "category": "geography",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "أي بحر يفصل شبه الجزيرة العربية عن شمال شرق أفريقيا؟",
+      "options": [
+        "البحر الأسود",
+        "البحر الأحمر",
+        "بحر العرب",
+        "بحر قزوين"
+      ],
+      "correctAnswer": "البحر الأحمر",
+      "explanation": "يقع البحر الأحمر بين أفريقيا وشبه الجزيرة العربية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676131846",
+      "category": "geography",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "في أي دولة تقع منطقة ترانسلفانيا؟",
+      "options": [
+        "رومانيا",
+        "المجر",
+        "بلغاريا",
+        "بولندا"
+      ],
+      "correctAnswer": "رومانيا",
+      "explanation": "ترانسلفانيا منطقة تاريخية في رومانيا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676167350",
+      "category": "geography",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "ما الدولة الحبيسة التي تقع بين الهند والصين وتشتهر بجبال الهيمالايا؟",
+      "options": [
+        "بوتان",
+        "نيبال",
+        "ميانمار",
+        "بنغلادش"
+      ],
+      "correctAnswer": "بوتان",
+      "explanation": "بوتان دولة حبيسة في جبال الهيمالايا بين الهند والصين.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676228855",
+      "category": "geography",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما الدولة التي تمتلك أكبر عدد من المناطق الزمنية في العالم؟",
+      "options": [
+        "روسيا",
+        "الولايات المتحدة",
+        "الصين",
+        "فرنسا"
+      ],
+      "correctAnswer": "فرنسا",
+      "explanation": "فرنسا  الدولة  التي تمتلك أكبر عدد من المناطق الزمنية في العالم",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676278438",
+      "category": "geography",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "أي نهر يصب في البحر الأسود عبر دلتا واسعة في رومانيا وأوكرانيا؟",
+      "options": [
+        "الراين",
+        "الفولغا",
+        "الدانوب",
+        "الرون"
+      ],
+      "correctAnswer": "الدانوب",
+      "explanation": "يشكّل نهر الدانوب دلتا كبيرة عند البحر الأسود.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676316246",
+      "category": "geography",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما عاصمة بوركينا فاسو؟",
+      "options": [
+        "باماكو",
+        "نيامي",
+        "واغادوغو",
+        "نواكشوط"
+      ],
+      "correctAnswer": "واغادوغو",
+      "explanation": "واغادوغو عاصمة بوركينا فاسو.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676355430",
+      "category": "geography",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "أي دولة تملك الساحل الأطول على بحر قزوين؟",
+      "options": [
+        "أذربيجان",
+        "كازاخستان",
+        "تركمانستان",
+        "إيران"
+      ],
+      "correctAnswer": "كازاخستان",
+      "explanation": "تمتلك كازاخستان أطول ساحل بين الدول المطلة على بحر قزوين.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676393688",
+      "category": "geography",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما البحر الذي لا تحدّه أي سواحل برية؟",
+      "options": [
+        "بحر سارجاسو",
+        "بحر العرب",
+        "بحر البلطيق",
+        "بحر المرجان"
+      ],
+      "correctAnswer": "بحر سارجاسو",
+      "explanation": "بحر سارجاسو هو الذي لا تحدّه أي سواحل برية",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676450670",
+      "category": "geography",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما الدولة التي تمتلك أطول خط ساحلي في العالم؟",
+      "options": [
+        "أستراليا",
+        "روسيا",
+        "كندا",
+        "إندونيسيا"
+      ],
+      "correctAnswer": "كندا",
+      "explanation": "كندا الدولة التي تمتلك أطول خط ساحلي في العالم",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676531639",
+      "category": "geography",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "في أي دولة تقع مدينة كوتايسي؟",
+      "options": [
+        "أرمينيا",
+        "جورجيا",
+        "أذربيجان",
+        "مولدوفا"
+      ],
+      "correctAnswer": "جورجيا",
+      "explanation": "كوتايسي مدينة رئيسية في جورجيا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676558767",
+      "category": "geography",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما عاصمة سورينام؟",
+      "options": [
+        "باراماريبو",
+        "جورج تاون",
+        "كايين",
+        "بليم"
+      ],
+      "correctAnswer": "باراماريبو",
+      "explanation": "باراماريبو عاصمة سورينام.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676599445",
+      "category": "geography",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "أي سلسلة جبلية تفصل تقليديًا بين أوروبا وآسيا في روسيا؟",
+      "options": [
+        "الألب",
+        "القوقاز فقط",
+        "الكاربات",
+        "الأورال"
+      ],
+      "correctAnswer": "الأورال",
+      "explanation": "تُعد جبال الأورال حدًا جغرافيًا تقليديًا بين أوروبا وآسيا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676657557",
+      "category": "geography",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "أي دولة أفريقية عاصمتها دودوما؟",
+      "options": [
+        "كينيا",
+        "أوغندا",
+        "رواندا",
+        "تنزانيا"
+      ],
+      "correctAnswer": "تنزانيا",
+      "explanation": "دودوما هي العاصمة الرسمية لتنزانيا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676687477",
+      "category": "geography",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "أي دولة تقع فيها شبه جزيرة يوكاتان بمعظم مساحتها؟",
+      "options": [
+        "كوبا",
+        "المكسيك",
+        "بليز",
+        "هندوراس"
+      ],
+      "correctAnswer": "المكسيك",
+      "explanation": "تقع معظم شبه جزيرة يوكاتان في جنوب شرق المكسيك.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676716285",
+      "category": "geography",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما عاصمة قيرغيزستان؟",
+      "options": [
+        "دوشنبه",
+        "بيشكيك",
+        "طشقند",
+        "ألماتي"
+      ],
+      "correctAnswer": "بيشكيك",
+      "explanation": "بيشكيك عاصمة قيرغيزستان.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676785317",
+      "category": "geography",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "أي عاصمة تقع عند التقاء نهري الدانوب والسافا؟",
+      "options": [
+        "زغرب",
+        "بلغراد",
+        "بودابست",
+        "براتيسلافا"
+      ],
+      "correctAnswer": "بلغراد",
+      "explanation": "تقع بلغراد عند التقاء نهرَي الدانوب والسافا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676817688",
+      "category": "geography",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "أي دولة تمتلك إقليم ناخيتشيفان المنفصل جغرافيًا عن أراضيها الرئيسية؟",
+      "options": [
+        "أذربيجان",
+        "أرمينيا",
+        "جورجيا",
+        "تركيا"
+      ],
+      "correctAnswer": "أذربيجان",
+      "explanation": "ناخيتشيفان إقليم تابع لأذربيجان، يفصل بينه وبين الجزء الرئيسي أراضٍ أرمينية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676849807",
+      "category": "geography",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "ما عاصمة بالاو؟",
+      "options": [
+        "ماجورو",
+        "فونافوتي",
+        "نغيرولمود",
+        "هونيارا"
+      ],
+      "correctAnswer": "نغيرولمود",
+      "explanation": "نغيرولمود عاصمة بالاو.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676883557",
+      "category": "geography",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "أي مضيق يصل بحر إيجه ببحر مرمرة؟",
+      "options": [
+        "كورفو",
+        "مسينا",
+        "الدردنيل",
+        "البوسفور"
+      ],
+      "correctAnswer": "الدردنيل",
+      "explanation": "يربط مضيق الدردنيل بحر إيجه ببحر مرمرة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676910189",
+      "category": "geography",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "أي دولة لها عاصمة تُدعى نغيرولمود؟",
+      "options": [
+        "بالاو",
+        "تيمور الشرقية",
+        "فانواتو",
+        "ساموا"
+      ],
+      "correctAnswer": "بالاو",
+      "explanation": "نغيرولمود هي عاصمة بالاو.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792676962853",
+      "category": "geography",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "أي دولة تقع فيها منطقة كاتالونيا؟",
+      "options": [],
+      "correctAnswer": "إسبانيا",
+      "explanation": "كاتالونيا إقليم في شمال شرق إسبانيا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792677000116",
+      "category": "geography",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "ما عاصمة جزر القمر؟",
+      "options": [
+        "موروني",
+        "بورت لويس",
+        "أنتاناناريفو",
+        "ماليه"
+      ],
+      "correctAnswer": "موروني",
+      "explanation": "موروني عاصمة اتحاد جزر القمر.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792677036470",
+      "category": "geography",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "أي بحيرة تقع على الحدود بين بيرو وبوليفيا؟",
+      "options": [
+        "ماراكايبو",
+        "نيكاراغوا",
+        "أرغنتينو",
+        "تيتيكاكا"
+      ],
+      "correctAnswer": "تيتيكاكا",
+      "explanation": "تقع بحيرة تيتيكاكا على الحدود بين بيرو وبوليفيا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792677075844",
+      "category": "geography",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "ما عاصمة طاجيكستان؟",
+      "options": [
+        "عشق آباد",
+        "دوشنبه",
+        "بيشكيك",
+        "أستانا"
+      ],
+      "correctAnswer": "دوشنبه",
+      "explanation": "دوشنبه عاصمة طاجيكستان.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792677124452",
+      "category": "geography",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "ما عاصمة مدغشقر؟",
+      "options": [
+        "أنتسيرابي",
+        "أنتاناناريفو",
+        "تواماسينا",
+        "ماهاجانغا"
+      ],
+      "correctAnswer": "أنتاناناريفو",
+      "explanation": "أنتاناناريفو عاصمة مدغشقر.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792677175044",
+      "category": "geography",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "أي دولة تقع فيها مدينة غيومري؟",
+      "options": [
+        "جورجيا",
+        "أرمينيا",
+        "أذربيجان",
+        "مولدوفا"
+      ],
+      "correctAnswer": "أرمينيا",
+      "explanation": "غيومري ثاني أكبر مدن أرمينيا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792677217604",
+      "category": "geography",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "أي دولة تطل على خليج غينيا وعاصمتها ياموسوكرو؟",
+      "options": [
+        "توغو",
+        "غانا",
+        "بنين",
+        "ساحل العاج"
+      ],
+      "correctAnswer": "ساحل العاج",
+      "explanation": "ياموسوكرو العاصمة السياسية لساحل العاج.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792677260692",
+      "category": "geography",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "ما عاصمة تيمور الشرقية؟",
+      "options": [
+        "ديلي",
+        "جاكرتا",
+        "مانادو",
+        "بورت مورسبي"
+      ],
+      "correctAnswer": "ديلي",
+      "explanation": "ديلي عاصمة تيمور الشرقية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792677295342",
+      "category": "geography",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما أكبر محيط في العالم؟",
+      "options": [],
+      "correctAnswer": "المحيط الهادئ",
+      "explanation": "المحيط الهادئ يعد  أكبر محيط في العالم.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792677361804",
+      "category": "geography",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما أكبر صحراء في العالم من حيث المساحة؟",
+      "options": [
+        "الصحراء الكبرى",
+        "صحراء غوبي",
+        "الصحراء العربية",
+        "صحراء القطب الجنوبي"
+      ],
+      "correctAnswer": "صحراء القطب الجنوبي",
+      "explanation": "صحراء القطب الجنوبي أكبر صحراء في العالم من حيث المساحة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
     }
   ]
 }
