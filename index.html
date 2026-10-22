@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تحدّي النخبة | ELITE CHALLENGE</title>
+<meta name="description" content="لعبة مسابقات ثقافية عربية: 18 سؤالًا، 4 مراحل، 4000 نقطة، لاعب واحد أو فريقان، ووسائل مساعدة.">
+<meta name="theme-color" content="#060a16">
+
+<!-- Open Graph: بعد النشر استبدل assets/... بالرابط المطلق https://USER.github.io/REPO/assets/images/tahadi_ayham.png -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="تحدّي النخبة">
+<meta property="og:title" content="تحدّي النخبة | ELITE CHALLENGE">
+<meta property="og:description" content="18 سؤالًا، 4 مراحل، 4000 نقطة. هل تستطيع الوصول إلى القمة؟">
+<meta property="og:image" content="assets/images/tahadi_ayham.png">
+<meta property="og:image:alt" content="شعار تحدّي النخبة">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="تحدّي النخبة | ELITE CHALLENGE">
+<meta name="twitter:description" content="18 سؤالًا، 4 مراحل، 4000 نقطة.">
+<meta name="twitter:image" content="assets/images/tahadi_ayham.png">
+
+<link rel="icon" type="image/png" href="assets/images/tahadi_ayham.png">
+<link rel="apple-touch-icon" href="assets/images/tahadi_ayham.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/game.css">
+</head>
+<body>
+<div class="bg-glow" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="logo-frame" id="logoFrame">
+      <img id="brandLogo" src="assets/images/tahadi_ayham.png" alt="شعار تحدّي النخبة"
+           onerror="this.remove();document.getElementById('logoFrame').classList.add('logo-frame--fallback')">
+    </span>
+    <span class="brand__text">
+      <strong class="brand__name">تحدّي النخبة</strong>
+      <span class="brand__sub">ELITE CHALLENGE</span>
+    </span>
+  </div>
+  <nav class="topbar__actions">
+    <button type="button" class="btn btn--ghost" data-action="help">طريقة اللعب</button>
+    <button type="button" class="btn btn--ghost" data-action="go-home">الرئيسية</button>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ============ الرئيسية ============ -->
+  <section id="screen-home" class="screen is-active" aria-labelledby="homeTitle">
+    <div class="hero card card--hero">
+      <span class="logo-frame logo-frame--lg">
+        <img src="assets/images/tahadi_ayham.png" alt="شعار تحدّي النخبة"
+             onerror="this.remove();this.parentElement.classList.add('logo-frame--fallback')">
+      </span>
+      <h1 id="homeTitle">تحدّي النخبة <span class="hero__latin">ELITE CHALLENGE</span></h1>
+      <p class="hero__lead">
+        18 سؤالًا، 4 مراحل متدرجة الصعوبة، وعلامة قصوى <strong>4000 نقطة</strong>.
+        اختبر معرفتك وحدك أو تحدَّ صديقك في نمط الفريقين مع فرصة السرقة ووسائل المساعدة.
+      </p>
+      <div class="hero__actions">
+        <button type="button" class="btn btn--gold btn--lg" data-action="start">ابدأ التحدي</button>
+        <button type="button" class="btn btn--outline btn--lg" data-action="help">طريقة اللعب</button>
+      </div>
+    </div>
+
+    <div class="grid">
+      <section class="card">
+        <h2 class="card__title">نمط اللعب</h2>
+        <div class="choices" role="radiogroup" aria-label="نمط اللعب">
+          <label class="choice">
+            <input type="radio" name="mode" value="solo" checked>
+            <span>لاعب واحد</span>
+          </label>
+          <label class="choice">
+            <input type="radio" name="mode" value="teams">
+            <span>فريقان</span>
+          </label>
+        </div>
+        <div class="field" id="fieldPlayer">
+          <label for="playerName">اسم اللاعب</label>
+          <input id="playerName" type="text" maxlength="20" value="النخبة" autocomplete="off">
+        </div>
+        <div id="teamFields" class="hidden">
+          <div class="field">
+            <label for="team1Name">اسم الفريق الأول</label>
+            <input id="team1Name" type="text" maxlength="20" value="الفريق الأول" autocomplete="off">
+          </div>
+          <div class="field">
+            <label for="team2Name">اسم الفريق الثاني</label>
+            <input id="team2Name" type="text" maxlength="20" value="الفريق الثاني" autocomplete="off">
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2 class="card__title">المراحل والنقاط</h2>
+        <table class="mini-table">
+          <thead><tr><th>المرحلة</th><th>الأسئلة</th><th>الصعوبة</th><th>النقاط</th></tr></thead>
+          <tbody>
+            <tr><td>الأولى</td><td>1–6</td><td>سهلة</td><td>100</td></tr>
+            <tr><td>الثانية</td><td>7–12</td><td>متوسطة</td><td>200</td></tr>
+            <tr><td>الثالثة</td><td>13–16</td><td>صعبة جدًا</td><td>300</td></tr>
+            <tr><td>النهائية</td><td>17–18</td><td>صعبة للغاية</td><td>500</td></tr>
+          </tbody>
+        </table>
+        <p class="hint">6×100 + 6×200 + 4×300 + 2×500 = <strong>4000 نقطة</strong></p>
+      </section>
+
+      <section class="card">
+        <h2 class="card__title">الفئات المتاحة</h2>
+        <div id="homeCategories" class="chips"></div>
+        <p class="hint" id="bankStats">جارٍ تحميل بنك الأسئلة…</p>
+      </section>
+
+      <section class="card">
+        <h2 class="card__title">أفضل نتيجة محلية</h2>
+        <div id="bestScore" class="best">لا توجد نتائج محفوظة بعد.</div>
+        <div class="row row--wrap">
+          <button type="button" class="btn btn--ghost" data-action="export-local">تصدير البيانات المحلية</button>
+          <button type="button" class="btn btn--danger-ghost" data-action="reset-local">إعادة ضبط البيانات</button>
+        </div>
+        <p class="hint">البيانات محفوظة في متصفحك فقط (LocalStorage) ولا تُرسل إلى أي خادم.</p>
+      </section>
+    </div>
+  </section>
+
+  <!-- ============ إعداد الجولة ============ -->
+  <section id="screen-setup" class="screen" aria-labelledby="setupTitle">
+    <div class="card">
+      <h2 id="setupTitle" class="card__title">إعداد الجولة</h2>
+      <p class="hint">اختر من فئة واحدة إلى 6 فئات. تُوزَّع الأسئلة على الفئات المختارة قدر الإمكان.</p>
+      <div id="categoryPicker" class="category-grid"></div>
+
+      <div class="setup-bar">
+        <label class="switch">
+          <input type="checkbox" id="timerEnabled">
+          <span>تشغيل مؤقت السؤال</span>
+        </label>
+        <div class="field field--inline">
+          <label for="timerSeconds">مدة السؤال (ثانية)</label>
+          <input type="number" id="timerSeconds" min="10" max="180" step="5" value="45">
+        </div>
+      </div>
+
+      <div id="setupWarning" class="alert hidden" role="alert"></div>
+
+      <div class="row row--wrap">
+        <button type="button" class="btn btn--gold btn--lg" data-action="begin">ابدأ الجولة</button>
+        <button type="button" class="btn btn--ghost" data-action="go-home">رجوع</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ اللعب ============ -->
+  <section id="screen-game" class="screen" aria-labelledby="qText">
+    <div class="game-hud">
+      <div class="hud__item"><span>السؤال</span><strong id="hudQNum">1 / 18</strong></div>
+      <div class="hud__item"><span>المرحلة</span><strong id="hudStage">—</strong></div>
+      <div class="hud__item"><span>قيمة السؤال</span><strong id="hudPoints">—</strong></div>
+      <div class="hud__item hud__turn"><span>الدور</span><strong id="hudTurn">—</strong></div>
+      <div class="hud__timer hidden" id="hudTimer" aria-live="off">—</div>
+    </div>
+
+    <div id="scoreBar" class="scorebar"></div>
+
+    <div class="question-card card">
+      <div class="question-card__meta">
+        <span id="qCategory" class="badge">—</span>
+        <span id="qDifficulty" class="badge badge--soft">—</span>
+      </div>
+      <p id="qText" class="question-text">—</p>
+      <div id="qOptions" class="options"></div>
+      <div id="qAnswer" class="answer-box hidden"></div>
+    </div>
+
+    <div id="turnNotice" class="turn-notice hidden"></div>
+    <div id="gameActions" class="game-actions"></div>
+  </section>
+
+  <!-- ============ النتائج ============ -->
+  <section id="screen-results" class="screen" aria-labelledby="resTitle">
+    <div class="card card--results">
+      <span class="logo-frame logo-frame--lg">
+        <img src="assets/images/tahadi_ayham.png" alt="شعار تحدّي النخبة"
+             onerror="this.remove();this.parentElement.classList.add('logo-frame--fallback')">
+      </span>
+      <h2 id="resTitle" class="results__title">النتائج النهائية</h2>
+      <p id="resWinner" class="results__winner">—</p>
+      <div id="resScores" class="results__scores"></div>
+
+      <div class="results__grid">
+        <div class="stat"><span>الحد الأقصى</span><strong>4000</strong></div>
+        <div class="stat"><span>الإجابات الصحيحة</span><strong id="resCorrect">—</strong></div>
+        <div class="stat"><span>الإجابات الخاطئة</span><strong id="resWrong">—</strong></div>
+        <div class="stat"><span>نسبة النجاح</span><strong id="resRatio">—</strong></div>
+        <div class="stat"><span>مدة الجولة</span><strong id="resDuration">—</strong></div>
+        <div class="stat"><span>أفضل فئة</span><strong id="resBestCat">—</strong></div>
+      </div>
+
+      <div id="resStages" class="results__stages"></div>
+      <div id="resLifelines" class="results__lifelines"></div>
+
+      <div class="row row--wrap results__actions">
+        <button type="button" class="btn btn--gold" data-action="new-round">العب جولة جديدة</button>
+        <button type="button" class="btn btn--outline" data-action="share">مشاركة النتيجة</button>
+        <button type="button" class="btn btn--ghost" data-action="save-image">حفظ صورة النتيجة</button>
+        <button type="button" class="btn btn--ghost" data-action="go-home">العودة إلى الرئيسية</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>تحدّي النخبة — ELITE CHALLENGE · لعبة مسابقات ثقافية تعمل بالكامل في المتصفح دون تسجيل دخول.</p>
+</footer>
+
+<div class="modal hidden" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal__backdrop" data-action="close-modal"></div>
+  <div class="modal__panel card">
+    <h2 id="modalTitle" class="card__title">—</h2>
+    <div id="modalBody" class="modal__body"></div>
+    <div class="row">
+      <button type="button" class="btn btn--gold" data-action="close-modal">حسنًا</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+
+<noscript><p class="alert">هذه اللعبة تحتاج إلى تفعيل JavaScript في المتصفح.</p></noscript>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

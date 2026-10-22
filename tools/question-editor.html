@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>محرر بنك الأسئلة — تحدّي النخبة</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#060a16;--panel:rgba(18,27,50,.85);--gold:#d4af37;--gold2:#f2d27a;--text:#eef2ff;--muted:#9fb0d0;--line:rgba(212,175,55,.25);--ok:#38b98a;--bad:#e0533d}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Tajawal',system-ui,sans-serif;background:linear-gradient(180deg,#060a16,#0a1020);color:var(--text);line-height:1.6;padding:18px}
+header{display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:18px;border-bottom:1px solid var(--line);padding-bottom:14px}
+h1{font-size:1.2rem;margin:0}
+.note{background:rgba(212,175,55,.1);border:1px solid var(--line);padding:10px 14px;border-radius:10px;font-size:.85rem;color:var(--gold2)}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+label{display:block;font-size:.82rem;color:var(--muted);margin-bottom:4px}
+input,select,textarea{width:100%;padding:9px 12px;border-radius:9px;border:1px solid rgba(255,255,255,.12);background:rgba(0,0,0,.3);color:var(--text);font-family:inherit;font-size:.92rem}
+textarea{min-height:70px;resize:vertical}
+button{padding:9px 16px;border-radius:999px;border:1px solid transparent;font-family:inherit;font-weight:700;font-size:.88rem;cursor:pointer;background:rgba(255,255,255,.07);color:var(--text)}
+button.gold{background:linear-gradient(180deg,var(--gold2),var(--gold));color:#1a1204}
+button.danger{background:rgba(224,83,61,.18);border-color:rgba(224,83,61,.45);color:#ffc7bd}
+button:hover{opacity:.92}
+table{width:100%;border-collapse:collapse;font-size:.85rem}
+th,td{padding:8px;border-bottom:1px solid rgba(255,255,255,.08);text-align:start;vertical-align:top}
+th{color:var(--gold2);font-size:.78rem;position:sticky;top:0;background:#0b1226}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.badge{padding:2px 9px;border-radius:999px;font-size:.72rem;background:rgba(212,175,55,.15);border:1px solid var(--line);white-space:nowrap}
+.badge.ok{background:rgba(56,185,138,.15);border-color:rgba(56,185,138,.4);color:#b5f0d8}
+.badge.rev{background:rgba(224,83,61,.15);border-color:rgba(224,83,61,.4);color:#ffc7bd}
+.hidden{display:none!important}
+#toast{position:fixed;bottom:20px;inset-inline:0;margin:auto;width:max-content;max-width:92vw;background:#111a33;border:1px solid var(--line);padding:10px 20px;border-radius:999px;font-weight:700;z-index:50}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.75);display:grid;place-items:center;padding:16px;z-index:60}
+.modal__box{background:#0b1226;border:1px solid var(--line);border-radius:16px;padding:20px;max-width:720px;width:100%;max-height:88vh;overflow:auto}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>محرر بنك الأسئلة — تحدّي النخبة</h1>
+  <div class="row">
+    <button id="btnExport" class="gold">تصدير JSON</button>
+    <button id="btnImport">استيراد JSON</button>
+    <button id="btnNew" class="gold">سؤال جديد</button>
+  </div>
+</header>
+
+<div class="note">
+  أداة محلية فقط. التعديلات لا تنتقل تلقائيًا إلى الموقع المنشور — صدّر الملف واستبدل
+  <code>data/questions.json</code> ثم ارفعه إلى GitHub. لا كلمات مرور ولا حماية أمنية هنا.
+</div>
+
+<section class="panel">
+  <div class="grid">
+    <div><label>بحث نصي (سؤال / إجابة / معرّف)</label><input id="fSearch" placeholder="اكتب للبحث…"></div>
+    <div><label>الفئة</label><select id="fCategory"><option value="">كل الفئات</option></select></div>
+    <div><label>الصعوبة</label><select id="fDifficulty"><option value="">الكل</option><option value="easy">سهلة</option><option value="medium">متوسطة</option><option value="hard">صعبة جدًا</option><option value="veryhard">صعبة للغاية</option></select></div>
+    <div><label>الحالة</label><select id="fStatus"><option value="">الكل</option><option value="active">نشط</option><option value="review">بحاجة لمراجعة</option><option value="archived">مؤرشف</option></select></div>
+  </div>
+  <p id="stats" style="color:var(--muted);font-size:.85rem;margin:12px 0 0"></p>
+</section>
+
+<section class="panel">
+  <div class="row" style="justify-content:space-between;margin-bottom:10px">
+    <strong id="countLabel">—</strong>
+    <div class="row">
+      <button id="btnPrev">السابق</button>
+      <span id="pageLabel" style="font-size:.85rem;color:var(--muted)">1 / 1</span>
+      <button id="btnNext">التالي</button>
+    </div>
+  </div>
+  <div style="overflow:auto;max-height:60vh">
+    <table>
+      <thead><tr><th>ID</th><th>السؤال</th><th>الفئة</th><th>الصعوبة</th><th>الحالة</th><th></th></tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+</section>
+
+<div id="editorModal" class="modal hidden">
+  <div class="modal__box">
+    <h2 id="editorTitle" style="margin-top:0;font-size:1.05rem;color:var(--gold2)">سؤال</h2>
+    <form id="qForm">
+      <div class="grid">
+        <div><label>المعرّف (ID)</label><input id="fId" required></div>
+        <div><label>الفئة</label><select id="fQCat" required></select></div>
+        <div><label>الصعوبة</label><select id="fQDiff" required><option value="easy">سهلة</option><option value="medium">متوسطة</option><option value="hard">صعبة جدًا</option><option value="veryhard">صعبة للغاية</option></select></div>
+        <div><label>النوع</label><select id="fQType"><option value="mcq">متعدد الخيارات</option><option value="open">مفتوح</option></select></div>
+        <div><label>الحالة</label><select id="fQStatus"><option value="active">نشط</option><option value="review">بحاجة لمراجعة</option><option value="archived">مؤرشف</option></select></div>
+      </div>
+      <div style="margin-top:12px"><label>نص السؤال</label><textarea id="fQText" required></textarea></div>
+      <div class="grid" style="margin-top:12px">
+        <div><label>الخيار 1</label><input id="fOpt0"></div>
+        <div><label>الخيار 2</label><input id="fOpt1"></div>
+        <div><label>الخيار 3</label><input id="fOpt2"></div>
+        <div><label>الخيار 4</label><input id="fOpt3"></div>
+      </div>
+      <div style="margin-top:12px"><label>الإجابة الصحيحة</label><input id="fAnswer" required></div>
+      <div style="margin-top:12px"><label>الشرح</label><textarea id="fExplain"></textarea></div>
+      <div style="margin-top:12px"><label>المصدر</label><input id="fSource"></div>
+      <div class="row" style="margin-top:16px;justify-content:flex-end">
+        <button type="button" id="btnCancelEdit">إلغاء</button>
+        <button type="submit" class="gold">حفظ</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div id="toast" class="hidden"></div>
+
+<script type="module">
+import { normalizeArabic } from '../js/storage.js';
+
+const state = {
+  data: null,          // { schemaVersion, categories, questions }
+  filtered: [],
+  page: 0,
+  pageSize: 25,
+  editingId: null,
+};
+
+const $ = s => document.querySelector(s);
+const toastEl = $('#toast');
+function toast(msg, ms = 3200) {
+  toastEl.textContent = msg;
+  toastEl.classList.remove('hidden');
+  clearTimeout(toast._t);
+  toast._t = setTimeout(() => toastEl.classList.add('hidden'), ms);
+}
+
+/* ---------- تحميل ---------- */
+async function boot() {
+  try {
+    const res = await fetch('../data/questions.json', { cache: 'no-cache' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    state.data = normalizeData(data);
+    buildCategorySelects();
+    refresh();
+  } catch (e) {
+    toast('تعذر تحميل data/questions.json — افتح الأداة عبر خادم محلي أو استورد ملفًا يدويًا.', 6000);
+    state.data = { schemaVersion: 2, categories: [], questions: [] };
+    buildCategorySelects();
+    refresh();
+  }
+}
+
+function normalizeData(raw) {
+  return {
+    schemaVersion: raw.schemaVersion || 2,
+    updatedAt: raw.updatedAt || '',
+    categories: Array.isArray(raw.categories) ? raw.categories : [],
+    questions: (Array.isArray(raw.questions) ? raw.questions : []).map(q => ({
+      id: q.id, category: q.category, difficulty: q.difficulty || 'medium',
+      type: q.type || 'mcq', question: q.question || '',
+      options: Array.isArray(q.options) ? q.options.slice(0, 4) : [],
+      correctAnswer: q.correctAnswer || '', explanation: q.explanation || '',
+      source: q.source || '', tags: Array.isArray(q.tags) ? q.tags : [],
+      status: q.status || 'active',
+    })),
+  };
+}
+
+function buildCategorySelects() {
+  const catFilter = $('#fCategory');
+  const catForm = $('#fQCat');
+  catFilter.innerHTML = '<option value="">كل الفئات</option>';
+  catForm.innerHTML = '';
+  state.data.categories.forEach(c => {
+    catFilter.insertAdjacentHTML('beforeend', `<option value="${c.id}">${c.name}</option>`);
+    catForm.insertAdjacentHTML('beforeend', `<option value="${c.id}">${c.name}</option>`);
+  });
+}
+
+/* ---------- التصفية ---------- */
+function applyFilters() {
+  const term = normalizeArabic($('#fSearch').value);
+  const cat = $('#fCategory').value;
+  const diff = $('#fDifficulty').value;
+  const st = $('#fStatus').value;
+
+  state.filtered = state.data.questions.filter(q => {
+    if (cat && q.category !== cat) return false;
+    if (diff && q.difficulty !== diff) return false;
+    if (st && q.status !== st) return false;
+    if (term) {
+      const hay = normalizeArabic(`${q.question} ${q.correctAnswer} ${q.id}`);
+      if (!hay.includes(term)) return false;
+    }
+    return true;
+  });
+  state.page = 0;
+}
+
+function refresh() {
+  applyFilters();
+  renderStats();
+  renderTable();
+}
+
+function renderStats() {
+  const qs = state.data.questions;
+  const active = qs.filter(q => q.status === 'active').length;
+  const review = qs.filter(q => q.status === 'review').length;
+  const archived = qs.filter(q => q.status === 'archived').length;
+  $('#stats').textContent = `الإجمالي: ${qs.length} · نشط: ${active} · بحاجة لمراجعة: ${review} · مؤرشف: ${archived}`;
+}
+
+function renderTable() {
+  const total = state.filtered.length;
+  const pages = Math.max(1, Math.ceil(total / state.pageSize));
+  state.page = Math.min(state.page, pages - 1);
+  const start = state.page * state.pageSize;
+  const slice = state.filtered.slice(start, start + state.pageSize);
+
+  $('#countLabel').textContent = `النتائج: ${total}`;
+  $('#pageLabel').textContent = `${state.page + 1} / ${pages}`;
+
+  const tbody = $('#tbody');
+  tbody.innerHTML = '';
+  slice.forEach(q => {
+    const catName = state.data.categories.find(c => c.id === q.category)?.name || q.category;
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td><code>${q.id}</code></td>
+      <td>${escapeHtml(q.question).slice(0, 110)}</td>
+      <td>${escapeHtml(catName)}</td>
+      <td>${q.difficulty}</td>
+      <td><span class="badge ${q.status === 'active' ? 'ok' : q.status === 'review' ? 'rev' : ''}">${q.status}</span></td>
+      <td></td>`;
+    const actions = tr.lastElementChild;
+    const edit = document.createElement('button');
+    edit.textContent = 'تعديل';
+    edit.onclick = () => openEditor(q.id);
+    const toggle = document.createElement('button');
+    toggle.textContent = q.status === 'archived' ? 'تفعيل' : 'أرشفة';
+    toggle.onclick = () => { q.status = q.status === 'archived' ? 'active' : 'archived'; refresh(); };
+    actions.append(edit, toggle);
+    tbody.appendChild(tr);
+  });
+
+  if (!slice.length) {
+    tbody.innerHTML = '<tr><td colspan="6" style="text-align:center;color:var(--muted)">لا نتائج.</td></tr>';
+  }
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+/* ---------- المحرر ---------- */
+function openEditor(id = null) {
+  state.editingId = id;
+  const q = id ? state.data.questions.find(x => x.id === id) : null;
+  $('#editorTitle').textContent = q ? `تعديل: ${q.id}` : 'سؤال جديد';
+  $('#fId').value = q?.id || `new-${Date.now()}`;
+  $('#fQCat').value = q?.category || state.data.categories[0]?.id || '';
+  $('#fQDiff').value = q?.difficulty || 'medium';
+  $('#fQType').value = q?.type || 'mcq';
+  $('#fQStatus').value = q?.status || 'active';
+  $('#fQText').value = q?.question || '';
+  for (let i = 0; i < 4; i++) $(`#fOpt${i}`).value = q?.options?.[i] || '';
+  $('#fAnswer').value = q?.correctAnswer || '';
+  $('#fExplain').value = q?.explanation || '';
+  $('#fSource').value = q?.source || '';
+  $('#editorModal').classList.remove('hidden');
+  $('#fQText').focus();
+}
+
+$('#btnCancelEdit').onclick = () => $('#editorModal').classList.add('hidden');
+
+$('#qForm').onsubmit = (ev) => {
+  ev.preventDefault();
+  const id = $('#fId').value.trim();
+  const type = $('#fQType').value;
+  const options = [0, 1, 2, 3].map(i => $(`#fOpt${i}`).value.trim()).filter(Boolean);
+  const answer = $('#fAnswer').value.trim();
+
+  if (!id || !answer) { toast('المعرّف والإجابة الصحيحة مطلوبان.'); return; }
+  if (type === 'mcq') {
+    if (options.length !== 4) { toast('الأسئلة متعددة الخيارات تحتاج 4 خيارات.'); return; }
+    if (!options.some(o => normalizeArabic(o) === normalizeArabic(answer))) {
+      toast('الإجابة الصحيحة يجب أن تطابق أحد الخيارات.'); return;
+    }
+  }
+  if (state.data.questions.some(q => q.id === id && q.id !== state.editingId)) {
+    toast('هذا المعرّف مستخدم مسبقًا.'); return;
+  }
+
+  const record = {
+    id, category: $('#fQCat').value, difficulty: $('#fQDiff').value,
+    type, question: $('#fQText').value.trim(), options: type === 'mcq' ? options : [],
+    correctAnswer: answer, explanation: $('#fExplain').value.trim(),
+    source: $('#fSource').value.trim(), tags: [], status: $('#fQStatus').value,
+  };
+
+  if (state.editingId) {
+    const idx = state.data.questions.findIndex(q => q.id === state.editingId);
+    if (idx >= 0) state.data.questions[idx] = record;
+  } else {
+    state.data.questions.push(record);
+  }
+  $('#editorModal').classList.add('hidden');
+  refresh();
+  toast('تم الحفظ محليًا — لا تنسَ التصدير.');
+};
+
+/* ---------- الاستيراد والتصدير ---------- */
+$('#btnNew').onclick = () => openEditor(null);
+
+$('#btnExport').onclick = () => {
+  const payload = {
+    schemaVersion: 2,
+    updatedAt: new Date().toISOString().slice(0, 10),
+    categories: state.data.categories,
+    questions: state.data.questions,
+  };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'questions.json';
+  a.click();
+  toast('تم تصدير الملف. انسخه إلى data/questions.json.');
+};
+
+$('#btnImport').onclick = () => {
+  const input = document.createElement('input');
+  input.type = 'file';
+  input.accept = '.json,application/json';
+  input.onchange = async () => {
+    const file = input.files?.[0];
+    if (!file) return;
+    try {
+      const text = await file.text();
+      const parsed = JSON.parse(text);
+      // نسخة احتياطية قبل الاستبدال
+      const backup = new Blob([JSON.stringify(state.data, null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(backup);
+      a.download = `backup-before-import-${Date.now()}.json`;
+      a.click();
+
+      if (!parsed || !Array.isArray(parsed.questions)) throw new Error('الملف لا يحتوي على questions.');
+      const invalid = parsed.questions.filter(q => !q.id || !q.question || !q.correctAnswer);
+      if (invalid.length) throw new Error(`يوجد ${invalid.length} سؤالًا ناقص الحقول الأساسية. رُفض الاستيراد.`);
+
+      state.data = normalizeData(parsed);
+      buildCategorySelects();
+      refresh();
+      toast(`تم استيراد ${state.data.questions.length} سؤالًا بنجاح.`);
+    } catch (e) {
+      toast('فشل الاستيراد: ' + e.message, 6000);
+    }
+  };
+  input.click();
+};
+
+/* ---------- التنقل ---------- */
+$('#btnPrev').onclick = () => { if (state.page > 0) { state.page--; renderTable(); } };
+$('#btnNext').onclick = () => {
+  const pages = Math.max(1, Math.ceil(state.filtered.length / state.pageSize));
+  if (state.page < pages - 1) { state.page++; renderTable(); }
+};
+['fSearch', 'fCategory', 'fDifficulty', 'fStatus'].forEach(id => {
+  $(`#${id}`).addEventListener('input', refresh);
+});
+
+boot();
+</script>
+</body>
+</html>

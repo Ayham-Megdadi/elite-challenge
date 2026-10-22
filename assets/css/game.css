@@ -1,0 +1,129 @@
+/* ===== شريط المعلومات ===== */
+.game-hud{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); gap:10px;
+  margin-bottom:14px;
+}
+.hud__item{
+  background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+  border:1px solid var(--line-2); border-radius:var(--radius-sm);
+  padding:10px 14px; display:flex; flex-direction:column; gap:2px;
+}
+.hud__item span{font-size:.72rem; color:var(--muted)}
+.hud__item strong{font-size:1rem; color:var(--gold-2)}
+.hud__turn{border-color:var(--line); background:var(--gold-soft)}
+.hud__timer{
+  background:linear-gradient(180deg, rgba(224,83,61,.2), rgba(224,83,61,.06));
+  border:1px solid rgba(224,83,61,.45);
+  border-radius:var(--radius-sm); padding:10px 14px;
+  display:grid; place-items:center; font-weight:900; font-size:1.25rem; color:#ffb3a5;
+}
+.hud__timer.is-low{animation:pulse .9s infinite}
+@keyframes pulse{50%{opacity:.45}}
+
+/* ===== شريط النقاط ===== */
+.scorebar{display:flex; gap:10px; flex-wrap:wrap; margin-bottom:16px}
+.scorebar__item{
+  flex:1 1 160px; display:flex; align-items:center; justify-content:space-between; gap:10px;
+  padding:11px 16px; border-radius:999px;
+  border:1px solid var(--line-2); background:rgba(255,255,255,.04);
+  font-size:.92rem;
+}
+.scorebar__item.is-active{
+  border-color:var(--gold); background:var(--gold-soft);
+  box-shadow:0 0 0 3px rgba(212,175,55,.1);
+}
+.scorebar__score{color:var(--gold-2); font-size:1.1rem; font-weight:900}
+
+/* ===== بطاقة السؤال ===== */
+.question-card{border-color:var(--line)}
+.question-card__meta{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:14px}
+.question-text{
+  font-size:clamp(1.1rem,2.4vw,1.5rem); font-weight:700; line-height:1.85;
+  margin:0 0 20px; color:#fff;
+}
+
+/* ===== الخيارات ===== */
+.options{display:grid; gap:10px}
+.option{
+  text-align:start; padding:15px 20px; border-radius:var(--radius-sm);
+  border:1px solid var(--line-2); background:rgba(255,255,255,.04);
+  color:var(--text); font-size:1rem; font-family:inherit; font-weight:500;
+  cursor:pointer; transition:.15s; position:relative;
+}
+.option:hover:not(:disabled){background:rgba(212,175,55,.1); border-color:var(--line); transform:translateX(-3px)}
+.option:disabled{cursor:not-allowed}
+.option.is-removed{opacity:.25; text-decoration:line-through; background:rgba(224,83,61,.07)}
+.option.is-correct{border-color:var(--ok); background:rgba(56,185,138,.15); color:#b5f0d8; font-weight:700}
+.option.is-wrong{border-color:var(--bad); background:rgba(224,83,61,.13); color:#ffc7bd}
+
+/* ===== صندوق الإجابة ===== */
+.answer-box{
+  margin-top:18px; padding:16px 18px; border-radius:var(--radius-sm);
+  background:rgba(56,185,138,.1); border:1px solid rgba(56,185,138,.4);
+  animation:fade .3s ease;
+}
+.answer-box__label{font-size:.78rem; color:var(--muted); display:block; margin-bottom:4px}
+.answer-box__value{font-size:1.15rem; font-weight:900; color:#b5f0d8; margin:0 0 8px}
+.answer-box__explain{margin:0; font-size:.9rem; color:var(--muted)}
+.answer-box__source{margin:6px 0 0; font-size:.78rem; color:var(--muted); opacity:.75}
+
+/* ===== إشعار السرقة ===== */
+.turn-notice{
+  margin-top:14px; padding:13px 18px; border-radius:var(--radius-sm);
+  background:rgba(242,210,122,.1); border:1px solid var(--line);
+  color:var(--gold-2); font-weight:700; text-align:center; font-size:.95rem;
+}
+
+/* ===== الأزرار ===== */
+.game-actions{display:flex; gap:10px; flex-wrap:wrap; margin-top:18px; align-items:center}
+.game-actions .btn{flex:0 1 auto}
+.lifeline{
+  border-radius:var(--radius-sm) !important;
+  border:1px dashed var(--line) !important;
+  background:rgba(212,175,55,.06) !important;
+  color:var(--gold-2) !important;
+  font-size:.86rem !important;
+}
+.lifeline:hover:not(:disabled){background:rgba(212,175,55,.15) !important}
+.lifeline.is-used{opacity:.35; text-decoration:line-through}
+
+/* ===== النتائج ===== */
+.card--results{text-align:center}
+.results__title{margin:16px 0 4px; font-size:clamp(1.3rem,3vw,1.9rem)}
+.results__winner{
+  font-size:clamp(1.05rem,2.4vw,1.4rem); font-weight:900; color:var(--gold-2); margin:0 0 20px;
+}
+.results__scores{display:flex; gap:12px; flex-wrap:wrap; justify-content:center; margin-bottom:22px}
+.result-pill{
+  padding:12px 22px; border-radius:999px; border:1px solid var(--line);
+  background:var(--gold-soft); font-weight:700;
+}
+.result-pill strong{color:var(--gold-2); margin-inline-start:6px}
+
+.results__grid{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+  gap:10px; margin-bottom:22px;
+}
+.stat{
+  padding:13px 10px; border-radius:var(--radius-sm);
+  border:1px solid var(--line-2); background:rgba(255,255,255,.035);
+  display:flex; flex-direction:column; gap:3px;
+}
+.stat span{font-size:.74rem; color:var(--muted)}
+.stat strong{font-size:1.15rem; color:var(--gold-2)}
+
+.results__stages,.results__lifelines{
+  text-align:start; margin-bottom:16px; padding:14px 16px;
+  border-radius:var(--radius-sm); border:1px solid var(--line-2);
+  background:rgba(0,0,0,.18); font-size:.9rem;
+}
+.results__stages h3,.results__lifelines h3{margin:0 0 10px; font-size:.92rem; color:var(--gold-2)}
+.stage-row{display:flex; justify-content:space-between; gap:12px; padding:5px 0; border-bottom:1px dashed var(--line-2); flex-wrap:wrap}
+.stage-row:last-child{border-bottom:none}
+.results__actions{justify-content:center; margin-top:22px}
+
+@media (max-width:640px){
+  .game-actions .btn{width:100%}
+  .scorebar__item{flex:1 1 100%}
+  .option{padding:13px 15px; font-size:.95rem}
+}
