@@ -188,9 +188,7 @@
       "correctAnswer": "1945",
       "explanation": "انتهت في 1945 باستسلام ألمانيا ثم اليابان.",
       "source": "معلومات عامة",
-      "tags": [
-        "حروب"
-      ],
+      "tags": [],
       "status": "active"
     },
     {
@@ -203,9 +201,7 @@
       "correctAnswer": "جورج واشنطن",
       "explanation": "تولّى الرئاسة بين 1789 و1797.",
       "source": "معلومات عامة",
-      "tags": [
-        "رؤساء"
-      ],
+      "tags": [],
       "status": "active"
     },
     {
@@ -223,10 +219,7 @@
       "correctAnswer": "1453",
       "explanation": "فتحها السلطان محمد الفاتح عام 1453م.",
       "source": "معلومات عامة",
-      "tags": [
-        "عثمانيون",
-        "فتوحات"
-      ],
+      "tags": [],
       "status": "active"
     },
     {
@@ -2986,6 +2979,862 @@
       ],
       "correctAnswer": "إخفاء الحقائق وتداول الأخبار غير الدقيقة",
       "explanation": "تؤدي الأسرار وسوء الفهم إلى تفاقم كثير من الخلافات الدرامية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792700762528",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما الحضارة التي بنت الأهرامات في الجيزة؟",
+      "options": [],
+      "correctAnswer": "الحضارة المصرية القديمة",
+      "explanation": "بُنيت أهرامات الجيزة في مصر القديمة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792700899376",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "في أي مدينة وُلد النبي محمد ﷺ؟",
+      "options": [],
+      "correctAnswer": "مكة المكرمة",
+      "explanation": "وُلد النبي محمد ﷺ في مكة المكرمة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792700923794",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "من أول الخلفاء الراشدين؟",
+      "options": [],
+      "correctAnswer": "أبو بكر الصديق",
+      "explanation": "تولى أبو بكر الصديق الخلافة بعد وفاة النبي ﷺ.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792700997624",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "أي نهر ارتبط بقيام الحضارة المصرية القديمة؟",
+      "options": [],
+      "correctAnswer": "نهر النيل",
+      "explanation": "كان النيل أساس الزراعة والاستقرار في مصر القديمة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792701049600",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "من القائد المقدوني الذي أسس إمبراطورية امتدت إلى مصر وأجزاء من آسيا؟",
+      "options": [],
+      "correctAnswer": "الإسكندر الأكبر",
+      "explanation": "قاد الإسكندر الأكبر حملاته في القرن الرابع قبل الميلاد.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792701077080",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "من القائد المسلم الذي ارتبط اسمه بفتح القدس في عهد الخليفة عمر بن الخطاب؟",
+      "options": [],
+      "correctAnswer": "أبو عبيدة بن الجراح",
+      "explanation": "ارتبط تسلّم القدس في الروايات التاريخية بأبي عبيدة بن الجراح والخليفة عمر بن الخطاب.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792701109343",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "في أي دولة بدأت الثورة الصناعية؟",
+      "options": [],
+      "correctAnswer": "بريطانيا",
+      "explanation": "بدأت الثورة الصناعية في بريطانيا خلال القرن الثامن عشر.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792701161727",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "في أي عام وقعت الهجرة النبوية إلى المدينة المنورة؟",
+      "options": [
+        "610م",
+        "622م",
+        "630م",
+        "632م"
+      ],
+      "correctAnswer": "622م",
+      "explanation": "توافق الهجرة النبوية عام 622م تقريبًا، وهو بداية التأريخ الهجري.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792701216447",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "من مؤسس الدولة الأموية؟",
+      "options": [
+        "عبد الملك بن مروان",
+        "معاوية بن أبي سفيان",
+        "مروان بن الحكم",
+        "عمر بن عبد العزيز"
+      ],
+      "correctAnswer": "معاوية بن أبي سفيان",
+      "explanation": "أسس معاوية بن أبي سفيان الدولة الأموية عام 661م.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792701264048",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما عاصمة الدولة العباسية في معظم عهدها المبكر؟",
+      "options": [
+        "دمشق",
+        "القاهرة",
+        "بغداد",
+        "قرطبة"
+      ],
+      "correctAnswer": "بغداد",
+      "explanation": "أسس العباسيون بغداد واتخذوها عاصمة عام 762م.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792701296055",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "في أي عام وقعت معركة حطين؟",
+      "options": [
+        "1187م",
+        "1099م",
+        "1258م",
+        "1192م"
+      ],
+      "correctAnswer": "1187م",
+      "explanation": "وقعت معركة حطين عام 1187م بقيادة صلاح الدين الأيوبي.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792701342661",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "في أي عام سقطت بغداد بيد المغول؟",
+      "options": [
+        "1099م",
+        "1187م",
+        "1401م",
+        "1258م"
+      ],
+      "correctAnswer": "1258م",
+      "explanation": "دخل المغول بغداد بقيادة هولاكو عام 1258م.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792701473079",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "من قاد الحملة الفرنسية على مصر عام 1798؟",
+      "options": [
+        "نابليون بونابرت",
+        "شارل ديغول",
+        "لويس الرابع عشر",
+        "فرانسوا ميتران"
+      ],
+      "correctAnswer": "نابليون بونابرت",
+      "explanation": "قاد نابليون بونابرت الحملة الفرنسية على مصر.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792701560057",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما المعركة التي هُزم فيها نابليون نهائيًا عام 1815؟",
+      "options": [
+        "أوسترليتز",
+        "واترلو",
+        "طرفالغار",
+        "لايبزيغ"
+      ],
+      "correctAnswer": "واترلو",
+      "explanation": "هُزم نابليون في معركة واترلو في يونيو 1815.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792701599096",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "في أي عام بدأت الحرب العالمية الأولى؟",
+      "options": [
+        "1905",
+        "1914",
+        "1917",
+        "1939"
+      ],
+      "correctAnswer": "1914",
+      "explanation": "بدأت الحرب العالمية الأولى عام 1914.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792701654832",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "من مؤسس الدولة العثمانية؟",
+      "options": [
+        "محمد الفاتح",
+        "عثمان الأول",
+        "أورخان",
+        "سليمان القانوني"
+      ],
+      "correctAnswer": "عثمان الأول",
+      "explanation": "تنسب بداية الدولة العثمانية إلى عثمان الأول.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792701720087",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "في أي عام فتح العثمانيون القسطنطينية؟",
+      "options": [
+        "1299م",
+        "1492م",
+        "1517م",
+        "1453م"
+      ],
+      "correctAnswer": "1453م",
+      "explanation": "فتحها السلطان محمد الثاني عام 1453م.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792701753808",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "أي حضارة بنت مدينة ماتشو بيتشو في جبال الأنديز؟",
+      "options": [
+        "الإنكا",
+        "المايا",
+        "الأولمك",
+        "الأزتك"
+      ],
+      "correctAnswer": "الإنكا",
+      "explanation": "ترتبط ماتشو بيتشو بحضارة الإنكا في أمريكا الجنوبية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792701848112",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما المعاهدة التي أنهت حرب الثلاثين عامًا في أوروبا عام 1648؟",
+      "options": [
+        "معاهدة أوترخت",
+        "صلح وستفاليا",
+        "معاهدة فرساي",
+        "معاهدة توردسيلاس"
+      ],
+      "correctAnswer": "صلح وستفاليا",
+      "explanation": "أنهت تسوية وستفاليا حرب الثلاثين عامًا عام 1648.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792701877960",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "من الخليفة العباسي الذي ارتبط عهده بتأسيس بغداد؟",
+      "options": [
+        "أبو جعفر المنصور",
+        "هارون الرشيد",
+        "المأمون",
+        "المعتصم بالله"
+      ],
+      "correctAnswer": "أبو جعفر المنصور",
+      "explanation": "أسس الخليفة أبو جعفر المنصور بغداد عاصمةً للعباسيين.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792701914705",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "من قاد القوات المغولية في اجتياح بغداد عام 1258؟",
+      "options": [
+        "جنكيز خان",
+        "تيمورلنك",
+        "هولاكو خان",
+        "قوبلاي خان"
+      ],
+      "correctAnswer": "هولاكو خان",
+      "explanation": "قاد هولاكو الحملة التي أسقطت بغداد العباسية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792701982727",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما عاصمة الدولة الأموية في الأندلس؟",
+      "options": [
+        "غرناطة",
+        "طليطلة",
+        "إشبيلية",
+        "قرطبة"
+      ],
+      "correctAnswer": "قرطبة",
+      "explanation": "أصبحت قرطبة مركز الحكم الأموي في الأندلس.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792702007848",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "في أي عام وصل كريستوفر كولومبوس إلى منطقة الكاريبي في رحلته الأولى؟",
+      "options": [
+        "1453",
+        "1492",
+        "1519",
+        "1498"
+      ],
+      "correctAnswer": "1492",
+      "explanation": "وصل كولومبوس إلى جزر الكاريبي عام 1492.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792702082359",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "أي دولة كانت تُعرف تاريخيًا باسم بلاد فارس؟",
+      "options": [],
+      "correctAnswer": "إيران",
+      "explanation": "بلاد فارس هو الاسم التاريخي الشائع لإيران.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792702102080",
+      "category": "history",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "أي معركة عام 1071م فتحت للسلاجقة طريقًا مهمًا للتوسع في الأناضول؟",
+      "options": [
+        "ملاذكرد",
+        "اليرموك",
+        "الزلاقة",
+        "عين جالوت"
+      ],
+      "correctAnswer": "ملاذكرد",
+      "explanation": "هزم السلاجقة البيزنطيين في معركة ملاذكرد بقيادة ألب أرسلان.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792702139607",
+      "category": "history",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "من الحاكم الذي أصدر مرسوم قسطنطين؟",
+      "options": [
+        "قسطنطين الأول",
+        "ثيودوسيوس الأول",
+        "جستنيان الأول",
+        "لم يصدره حاكم؛ الوثيقة مزوّرة من العصور الوسطى"
+      ],
+      "correctAnswer": "لم يصدره حاكم؛ الوثيقة مزوّرة من العصور الوسطى",
+      "explanation": "ما يُعرف بمرسوم قسطنطين هو وثيقة مزوّرة من العصور الوسطى، لا مرسومًا أصليًا صادرًا عن الإمبراطور.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792702235294",
+      "category": "history",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "ما اسم المعركة التي شهدت هزيمة نابليون في أكتوبر 1813 قبل نفيه الأول؟",
+      "options": [
+        "لايبزيغ",
+        "واترلو",
+        "بورودينو",
+        "أوسترليتز"
+      ],
+      "correctAnswer": "لايبزيغ",
+      "explanation": "كانت معركة لايبزيغ، أو معركة الأمم، هزيمة كبرى لنابليون عام 1813.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792702260511",
+      "category": "history",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "أي معاهدة أنهت رسميًا الحرب بين ألمانيا والحلفاء بعد الحرب العالمية الأولى؟",
+      "options": [
+        "معاهدة بريست ليتوفسك",
+        "معاهدة لوزان",
+        "معاهدة فرساي",
+        "معاهدة سان ستيفانو"
+      ],
+      "correctAnswer": "معاهدة فرساي",
+      "explanation": "وُقّعت معاهدة فرساي مع ألمانيا عام 1919.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792702351958",
+      "category": "history",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "أي سلطان مملوكي ارتبط بانتصار عين جالوت عام 1260 إلى جانب قطز؟",
+      "options": [
+        "برقوق",
+        "الناصر محمد",
+        "الظاهر بيبرس",
+        "قلاوون"
+      ],
+      "correctAnswer": "الظاهر بيبرس",
+      "explanation": "شارك بيبرس في معركة عين جالوت التي هُزم فيها المغول عام 1260.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792702377375",
+      "category": "history",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "من المؤرخ الذي ألّف كتاب «المقدمة»؟",
+      "options": [
+        "ابن خلدون",
+        "الطبري",
+        "ابن الأثير",
+        "المسعودي"
+      ],
+      "correctAnswer": "ابن خلدون",
+      "explanation": "ألّف ابن خلدون المقدمة التي أصبحت من أشهر الأعمال في الفكر التاريخي والاجتماعي.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792702536925",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما المدينة الأردنية التي كانت عاصمة مملكة الأنباط؟",
+      "options": [],
+      "correctAnswer": "البتراء",
+      "explanation": "كانت البتراء مركز مملكة الأنباط وعاصمتها.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792702552735",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما الاسم القديم الذي عُرفت به عمّان في العصر اليوناني الروماني؟",
+      "options": [],
+      "correctAnswer": "فيلادلفيا",
+      "explanation": "عُرفت عمّان باسم فيلادلفيا في العصر الهلنستي والروماني.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792702573374",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "في أي دولة تقع مدينة جرش الأثرية؟",
+      "options": [],
+      "correctAnswer": "الأردن",
+      "explanation": "تقع جرش في شمال الأردن وتشتهر بآثارها الرومانية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792702602472",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما المعركة التي وقعت في الأردن عام 636م تقريبًا بين المسلمين والبيزنطيين؟",
+      "options": [],
+      "correctAnswer": "اليرموك",
+      "explanation": "وقعت معركة اليرموك عام 636م تقريبًا، قرب منطقة اليرموك بين الأردن وسوريا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792702629805",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "في أي عام استقل الأردن وأُعلن قيام المملكة الأردنية الهاشمية؟",
+      "options": [],
+      "correctAnswer": "1946",
+      "explanation": "نال الأردن استقلاله في 25 أيار 1946.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792702659262",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "أي مدينة سورية تُعرف بلقب مدينة الياسمين؟",
+      "options": [],
+      "correctAnswer": "دمشق",
+      "explanation": "يرتبط لقب مدينة الياسمين بدمشق.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792702684998",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما اسم البحر الذي يقع غرب بلاد الشام؟",
+      "options": [],
+      "correctAnswer": "البحر المتوسط",
+      "explanation": "يمتد البحر المتوسط بمحاذاة الساحل الغربي لبلاد الشام.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792702717798",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما اسم اتحاد المدن العشر الذي ضم مدنًا في بلاد الشام، منها جرش وفيلادلفيا؟",
+      "options": [
+        "الحلف المقدس",
+        "الرابطة الأيونية",
+        "الديكابولس",
+        "الحلف الفينيقي"
+      ],
+      "correctAnswer": "الديكابولس",
+      "explanation": "الديكابولس اتحاد تاريخي لمدن ذات طابع يوناني روماني، وضمت قائمته مدنًا من الأردن الحالي.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792702775680",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "من القائد الذي قاد المسلمين في معركة حطين عام 1187؟",
+      "options": [
+        "صلاح الدين الأيوبي",
+        "نور الدين زنكي",
+        "الظاهر بيبرس",
+        "قطز"
+      ],
+      "correctAnswer": "صلاح الدين الأيوبي",
+      "explanation": "قاد صلاح الدين الأيوبي القوات التي انتصرت في حطين.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792702822310",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "أي مدينة أصبحت مركزًا رئيسيًا للدولة الأموية؟",
+      "options": [
+        "بغداد",
+        "إسطنبول",
+        "القاهرة",
+        "دمشق"
+      ],
+      "correctAnswer": "دمشق",
+      "explanation": "كانت دمشق عاصمة الدولة الأموية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792702858486",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما المدينة الفلسطينية التي ارتبطت بكنيسة المهد؟",
+      "options": [
+        "الناصرة",
+        "بيت لحم",
+        "عكا",
+        "أريحا"
+      ],
+      "correctAnswer": "بيت لحم",
+      "explanation": "تقع كنيسة المهد في بيت لحم.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792702916734",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "أي مدينة في الأردن ارتبطت تاريخيًا باسم جدارا؟",
+      "options": [
+        "أم قيس",
+        "مادبا",
+        "الطفيلة",
+        "العقبة"
+      ],
+      "correctAnswer": "أم قيس",
+      "explanation": "أم قيس التي تقع في محافظة إربد هي موقع مدينة جدارا القديمة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792703002149",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما اسم الاتفاق الذي ارتبط بتقسيم مناطق النفوذ العربية بين بريطانيا وفرنسا خلال الحرب العالمية الأولى؟",
+      "options": [
+        "معاهدة لوزان",
+        "وعد بلفور",
+        "سايكس–بيكو",
+        "معاهدة سيفر"
+      ],
+      "correctAnswer": "سايكس–بيكو",
+      "explanation": "كان اتفاق سايكس–بيكو السري عام 1916 متعلقًا بمناطق النفوذ البريطانية والفرنسية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792703038117",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "في أي عام دخلت القوات العربية بقيادة فيصل دمشق خلال الثورة العربية الكبرى؟",
+      "options": [
+        "1916",
+        "1918",
+        "1921",
+        "1917"
+      ],
+      "correctAnswer": "1918",
+      "explanation": "دخلت القوات العربية دمشق في عام 1918 مع نهاية الحكم العثماني في المدينة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792703070741",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما اسم المعركة التي وقعت عام 629م قرب الكرك الحالية بين المسلمين والبيزنطيين؟",
+      "options": [
+        "اليرموك",
+        "أجنادين",
+        "حطين",
+        "مؤتة"
+      ],
+      "correctAnswer": "مؤتة",
+      "explanation": "وقعت معركة مؤتة في منطقة مؤتة جنوب الأردن عام 629م.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792703124269",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "من القائد الذي تولّى قيادة المسلمين بعد استشهاد القادة الثلاثة في معركة مؤتة؟",
+      "options": [
+        "عمرو بن العاص",
+        "خالد بن الوليد",
+        "أبو عبيدة بن الجراح",
+        "شرحبيل بن حسنة"
+      ],
+      "correctAnswer": "خالد بن الوليد",
+      "explanation": "تولى خالد بن الوليد قيادة الجيش في مؤتة بعد استشهاد زيد وجعفر وعبد الله بن رواحة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792703168150",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما اسم المدينة السورية التي كانت عاصمة الدولة الحمدانية في عهد سيف الدولة؟",
+      "options": [
+        "دمشق",
+        "حلب",
+        "حمص",
+        "الرقة"
+      ],
+      "correctAnswer": "حلب",
+      "explanation": "جعل سيف الدولة الحمداني حلب مركزًا لحكمه في القرن العاشر.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792703230214",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "في أي مدينة أردنية عُقد مؤتمر عام 1920 الذي عارض الانتداب الفرنسي على سوريا؟",
+      "options": [
+        "عمّان",
+        "إربد",
+        "السلط",
+        "معان"
+      ],
+      "correctAnswer": "معان",
+      "explanation": "ارتبط مؤتمر معان عام 1920 بمواقف سياسية في شرق الأردن تجاه التطورات في سوريا والمنطقة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792703293710",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما اسم الثورة التي بدأت عام 1916 ضد الحكم العثماني بقيادة الشريف حسين بن علي؟",
+      "options": [],
+      "correctAnswer": "الثورة العربية الكبرى",
+      "explanation": "انطلقت الثورة العربية الكبرى عام 1916 بقيادة الشريف حسين بن علي.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792703330077",
+      "category": "history",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "أي ملك نبطي ارتبط اسمه بنقوش ومبانٍ نبطية في البتراء خلال القرن الأول الميلادي؟",
+      "options": [
+        "الحارث الرابع",
+        "عبادة الثالث",
+        "رب إيل الثاني",
+        "ميشع"
+      ],
+      "correctAnswer": "الحارث الرابع",
+      "explanation": "يُعد الحارث الرابع من أشهر ملوك الأنباط، وازدهرت المملكة في عهده.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792703392581",
+      "category": "history",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "ما اسم الموقع الذي شهد اجتماعًا تاريخيًا ارتبط بالبيعة للعباسيين في جنوب الأردن؟",
+      "options": [
+        "أم الجمال",
+        "تل حسبان",
+        "أم الرصاص",
+        "الحميمة"
+      ],
+      "correctAnswer": "الحميمة",
+      "explanation": "كانت الحميمة في جنوب الأردن مركزًا مهمًا للدعوة العباسية قبل قيام الدولة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792703428702",
+      "category": "history",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "أي مملكة عربية قديمة اتخذت من الحيرة في جنوب العراق مركزًا لها، وكانت على صلة بصراعات الفرس والروم؟",
+      "options": [
+        "الغساسنة",
+        "التدمريون",
+        "المناذرة",
+        "الأنباط"
+      ],
+      "correctAnswer": "المناذرة",
+      "explanation": "حكم المناذرة الحيرة، وارتبطوا سياسيًا بالساسانيين، في مقابل ارتباط الغساسنة بالبيزنطيين.",
       "source": "",
       "tags": [],
       "status": "active"
