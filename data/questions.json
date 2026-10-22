@@ -1633,10 +1633,8 @@
       "correctAnswer": "سوريا",
       "explanation": "عمل درامي سوري.",
       "source": "—",
-      "tags": [
-        "دراما سورية"
-      ],
-      "status": "review"
+      "tags": [],
+      "status": "active"
     },
     {
       "id": "zab-r-02",
@@ -1645,18 +1643,16 @@
       "type": "mcq",
       "question": "إلى أي نوع درامي ينتمي مسلسل «زمن البرغوث»؟",
       "options": [
-        "دراما اجتماعية شامية",
+        "كوميديا رومانسية",
         "دراما تركية",
         "دراما مصرية",
-        "كوميديا رومانسية"
+        "دراما اجتماعية شامية"
       ],
       "correctAnswer": "دراما اجتماعية شامية",
-      "explanation": "يحتاج التحقق من قبل المحرر.",
+      "explanation": "دراما اجتماعية شامية سوريه.",
       "source": "—",
-      "tags": [
-        "نوع"
-      ],
-      "status": "review"
+      "tags": [],
+      "status": "active"
     },
     {
       "id": "zab-r-03",
@@ -1665,18 +1661,16 @@
       "type": "mcq",
       "question": "في أي عقد ميلادي أُنتج مسلسل «زمن البرغوث»؟",
       "options": [
-        "العقد الثاني من القرن الحادي والعشرين",
         "الثمانينيات",
+        "العقد الثاني من القرن الحادي والعشرين",
         "التسعينيات",
         "السبعينيات"
       ],
       "correctAnswer": "العقد الثاني من القرن الحادي والعشرين",
-      "explanation": "يحتاج التحقق من قبل المحرر.",
+      "explanation": "العقد الثاني من القرن الحادي والعشرين ميلادي أُنتج مسلسل «زمن البرغوث».",
       "source": "—",
-      "tags": [
-        "تاريخ الإنتاج"
-      ],
-      "status": "review"
+      "tags": [],
+      "status": "active"
     },
     {
       "id": "tar-e-01",
@@ -2672,6 +2666,326 @@
       ],
       "correctAnswer": "صحراء القطب الجنوبي",
       "explanation": "صحراء القطب الجنوبي أكبر صحراء في العالم من حيث المساحة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792678384289",
+      "category": "zamn-al-barghout",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "من الممثل الذي جسّد شخصية أبو وضاح في الجزء الأول؟",
+      "options": [],
+      "correctAnswer": "أيمن زيدان",
+      "explanation": "جسّد أيمن زيدان شخصية المختار أبو وضاح في الجزء الأول.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792678419553",
+      "category": "zamn-al-barghout",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "من الممثل الذي أدّى شخصية أبو أدهم في الجزء الأول؟",
+      "options": [],
+      "correctAnswer": "رشيد عساف",
+      "explanation": "أدّى رشيد عساف شخصية أبو أدهم.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792678450306",
+      "category": "zamn-al-barghout",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "من الممثلة التي أدّت شخصية أم وضاح في الجزء الأول؟",
+      "options": [],
+      "correctAnswer": "صباح الجزائري",
+      "explanation": "أدّت صباح الجزائري دور أم وضاح.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792678503130",
+      "category": "zamn-al-barghout",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "من الممثل الذي أدّى شخصية أبو نجيب؟",
+      "options": [],
+      "correctAnswer": "سلوم حداد",
+      "explanation": "جسّد سلوم حداد شخصية أبو نجيب.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792678532289",
+      "category": "zamn-al-barghout",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "من مؤلف مسلسل زمن البرغوت؟",
+      "options": [
+        "مروان قاووق",
+        "محمد الزيد",
+        "حسن سامي يوسف",
+        "مروان قاووق"
+      ],
+      "correctAnswer": "محمد الزيد",
+      "explanation": "مؤلف المسلسل هو محمد الزيد.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792678567017",
+      "category": "zamn-al-barghout",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "من مخرج الجزء الأول من زمن البرغوت؟",
+      "options": [
+        "بسام الملا",
+        "حاتم علي",
+        "أحمد إبراهيم أحمد",
+        "ناجي طعمي"
+      ],
+      "correctAnswer": "أحمد إبراهيم أحمد",
+      "explanation": "أخرج الجزء الأول أحمد إبراهيم أحمد.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792678614513",
+      "category": "zamn-al-barghout",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "في أي عام عُرض الجزء الأول من زمن البرغوت؟",
+      "options": [],
+      "correctAnswer": "2012",
+      "explanation": "عُرض الجزء الأول عام 2012.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792678750569",
+      "category": "zamn-al-barghout",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "من الممثل الذي أدّى شخصية <شاهر> في الجزء الأول من مسلسل زمن البرغوث؟",
+      "options": [
+        "قيس شيخ نجيب",
+        "مهيار خضور",
+        "يامن الحجلي",
+        "علاء الزعبي"
+      ],
+      "correctAnswer": "قيس شيخ نجيب",
+      "explanation": "جسّد قيس شيخ نجيب شخصية شاهر في الجزء الأول.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792678829377",
+      "category": "zamn-al-barghout",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "من أدّى شخصية <وضاح> في الجزء الأول من مسلسل زمن البرغوث؟",
+      "options": [
+        "قيس شيخ نجيب",
+        "مهيار خضور",
+        "شادي زيدان",
+        "يامن الحجلي"
+      ],
+      "correctAnswer": "مهيار خضور",
+      "explanation": "أدّى مهيار خضور شخصية وضاح.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792678893224",
+      "category": "zamn-al-barghout",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما اسم الحارة الدمشقية الرئيسية التي تدور فيها أحداث مسلسل زمن البرغوث؟",
+      "options": [
+        "حارة الضبع",
+        "حارة عياش",
+        "حارة القيمرية",
+        "حارة الميدان"
+      ],
+      "correctAnswer": "حارة عياش",
+      "explanation": "تدور أحداث رئيسية في حارة عياش الدمشقية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792678962608",
+      "category": "zamn-al-barghout",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "من الممثل الذي أدّى شخصية تحسين في مسلسل زمن البرغوث؟",
+      "options": [
+        "علاء الزعبي",
+        "قيس شيخ نجيب",
+        "مهيار خضور",
+        "شادي زيدان"
+      ],
+      "correctAnswer": "علاء الزعبي",
+      "explanation": "أدّى علاء الزعبي شخصية تحسين في الجزء الأول.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792679013296",
+      "category": "zamn-al-barghout",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "كم حلقة يتكوّن منها الجزء الأول لمسلسل زمن البرغوث وفق بيانات عرض العمل؟",
+      "options": [
+        "30 حلقة",
+        "33 حلقة",
+        "35 حلقة",
+        "36 حلقة"
+      ],
+      "correctAnswer": "35 حلقة",
+      "explanation": "يتكوّن الجزء الأول من 35 حلقة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792679114008",
+      "category": "zamn-al-barghout",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما الفترة التاريخية العامة التي يتناولها مسلسل زمن البرغوث؟",
+      "options": [
+        "1830–1845",
+        "1915–1926",
+        "1939–1945",
+        "1958–1967"
+      ],
+      "correctAnswer": "1915–1926",
+      "explanation": "يتناول العمل مرحلة من تاريخ دمشق بين 1915 و1926 تقريبًا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792679165624",
+      "category": "zamn-al-barghout",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما التحول السياسي الأساسي الذي تشكّل خلفية لأحداث المسلسل؟",
+      "options": [
+        "قيام الدولة الأموية",
+        "نهاية الحكم العثماني وبداية الاحتلال الفرنسي",
+        "استقلال سوريا عن فرنسا عام 1946",
+        "قيام الوحدة السورية المصرية"
+      ],
+      "correctAnswer": "نهاية الحكم العثماني وبداية الاحتلال الفرنسي",
+      "explanation": "تدور الأحداث في مرحلة خروج العثمانيين وبداية السيطرة الفرنسية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792679211848",
+      "category": "zamn-al-barghout",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "من الممثل الذي أدّى شخصية أبو محمد في مسلسل زمن البرغوث؟",
+      "options": [
+        "شادي مقرش",
+        "محمد حداقي",
+        "أحمد رافع",
+        "هشام كفارنة"
+      ],
+      "correctAnswer": "شادي مقرش",
+      "explanation": "جسّد شادي مقرش شخصية أبو محمد السكافي.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792679357264",
+      "category": "zamn-al-barghout",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ليش كان شاهر زعلان من تحسين في بداية مسلسل زمن البرغوث؟",
+      "options": [
+        "إساءته للآخرين وتدخله في شؤونهم",
+        "رفضه السفر إلى دمشق",
+        "رفضه العمل مع أبي أدهم",
+        "خلافه على تجارة القمح"
+      ],
+      "correctAnswer": "إساءته للآخرين وتدخله في شؤونهم",
+      "explanation": "تبدأ بعض أحداث المسلسل بخلافات اجتماعية داخل الحارة بسبب تصرفات تحسين وعلاقاته بأهلها.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792679701734",
+      "category": "zamn-al-barghout",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما الذي كان يفعله تحسين ويزيد الخلافات بينه وبين أهل الحارة في زمن البرغوث؟",
+      "options": [],
+      "correctAnswer": "نقل الأخبار وإثارة المشكلات",
+      "explanation": "تتداخل الأخبار والمكائد في تصعيد الخلافات بين الشخصيات.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792679760712",
+      "category": "zamn-al-barghout",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما طبيعة العلاقة التي نشأت بين وضاح ورويدا في زمن البرغوث؟",
+      "options": [],
+      "correctAnswer": "مشاعر حب ورغبة في الزواج",
+      "explanation": "تُعد علاقة وضاح ورويدا من العلاقات التي تتأثر بالمكائد والتدخلات العائلية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792679833631",
+      "category": "zamn-al-barghout",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما طبيعة البيئة التي تدور فيها الأحداث؟",
+      "options": [],
+      "correctAnswer": "حارة دمشقية قديمة",
+      "explanation": "تدور أحداث المسلسل في حارة عياش الدمشقية ضمن بيئة تاريخية واجتماعية شامية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792679968894",
+      "category": "zamn-al-barghout",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما الذي يزيد من تعقيد الخلافات بين الشخصيات في مسلسل زمن البرغوث؟",
+      "options": [
+        "مصارحة الجميع ببعضهم",
+        "إخفاء الحقائق وتداول الأخبار غير الدقيقة",
+        "الابتعاد عن التدخل في شؤون الآخرين",
+        "التنازل عن المصالح الشخصية"
+      ],
+      "correctAnswer": "إخفاء الحقائق وتداول الأخبار غير الدقيقة",
+      "explanation": "تؤدي الأسرار وسوء الفهم إلى تفاقم كثير من الخلافات الدرامية.",
       "source": "",
       "tags": [],
       "status": "active"
