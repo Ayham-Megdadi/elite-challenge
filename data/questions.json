@@ -342,18 +342,15 @@
       "type": "mcq",
       "question": "ما هي السورة التي تُسمى «قلب القرآن»؟",
       "options": [
-        "سورة يس",
         "سورة الكهف",
+        "سورة يس",
         "سورة الرحمن",
         "سورة الملك"
       ],
       "correctAnswer": "سورة يس",
       "explanation": "وردت هذه التسمية في بعض الآثار.",
       "source": "كتب التفسير",
-      "tags": [
-        "سور",
-        "ألقاب"
-      ],
+      "tags": [],
       "status": "active"
     },
     {
@@ -363,17 +360,15 @@
       "type": "mcq",
       "question": "من هو الصحابي الوحيد الذي ذُكر اسمه صريحًا في القرآن الكريم؟",
       "options": [
-        "زيد بن حارثة",
+        "علي بن أبي طالب",
         "أبو بكر الصديق",
         "عمر بن الخطاب",
-        "علي بن أبي طالب"
+        "زيد بن حارثة"
       ],
       "correctAnswer": "زيد بن حارثة",
       "explanation": "ذُكر في سورة الأحزاب في قوله تعالى: «فلما قضى زيد منها وطرًا».",
       "source": "سورة الأحزاب",
-      "tags": [
-        "صحابة"
-      ],
+      "tags": [],
       "status": "active"
     },
     {
@@ -383,18 +378,15 @@
       "type": "mcq",
       "question": "كم عدد القراءات المتواترة المشهورة للقرآن الكريم؟",
       "options": [
-        "عشر",
-        "سبع",
         "أربع عشرة",
+        "سبع",
+        "عشر",
         "أربع"
       ],
       "correctAnswer": "عشر",
       "explanation": "القراءات العشر المتواترة هي المتعارف عليها عند أهل الأداء.",
       "source": "كتب القراءات",
-      "tags": [
-        "قراءات",
-        "تجويد"
-      ],
+      "tags": [],
       "status": "active"
     },
     {
@@ -3835,6 +3827,784 @@
       ],
       "correctAnswer": "المناذرة",
       "explanation": "حكم المناذرة الحيرة، وارتبطوا سياسيًا بالساسانيين، في مقابل ارتباط الغساسنة بالبيزنطيين.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792704484609",
+      "category": "religion",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما أطول سورة في القرآن الكريم؟",
+      "options": [],
+      "correctAnswer": "البقرة",
+      "explanation": "سورة البقرة هي أطول سور القرآن، وعدد آياتها 286.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792704502747",
+      "category": "religion",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "من النبي الذي ابتلعه الحوت؟",
+      "options": [],
+      "correctAnswer": "يونس عليه السلام",
+      "explanation": "وردت قصة يونس عليه السلام في القرآن الكريم.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792704537450",
+      "category": "religion",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما الشهر الذي يصوم فيه المسلمون؟",
+      "options": [],
+      "correctAnswer": "رمضان",
+      "explanation": "صيام شهر رمضان من أركان الإسلام.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792704564130",
+      "category": "religion",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "من خاتم الأنبياء والمرسلين في الإسلام؟",
+      "options": [],
+      "correctAnswer": "محمد ﷺ",
+      "explanation": "محمدًا ﷺ خاتم النبيين.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792704605154",
+      "category": "religion",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "إلى أي مدينة هاجر النبي محمد ﷺ من مكة؟",
+      "options": [],
+      "correctAnswer": "المدينة المنورة",
+      "explanation": "هاجر النبي ﷺ من مكة إلى المدينة المنورة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792704637930",
+      "category": "religion",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "كم عدد الصلوات المفروضة في اليوم والليلة؟",
+      "options": [],
+      "correctAnswer": "خمس",
+      "explanation": "الصلوات المفروضة خمس في اليوم والليلة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792704661090",
+      "category": "religion",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما الكتاب الذي أُنزل على النبي موسى عليه السلام؟",
+      "options": [],
+      "correctAnswer": "التوراة",
+      "explanation": "التوراة هو الكتاب الذي أُنزل على موسى عليه السلام.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792704686306",
+      "category": "religion",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما قبلة المسلمين في الصلاة؟",
+      "options": [],
+      "correctAnswer": "الكعبة المشرفة",
+      "explanation": "يتجه المسلمون في صلاتهم نحو الكعبة المشرفة في مكة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792704711649",
+      "category": "religion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما السورة التي لا تبدأ بالبسملة في المصحف؟",
+      "options": [
+        "الأنفال",
+        "التوبة",
+        "يونس",
+        "النحل"
+      ],
+      "correctAnswer": "التوبة",
+      "explanation": "سورة التوبة هي السورة الوحيدة التي لا تبدأ بالبسملة في المصحف.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792704774186",
+      "category": "religion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما السورة التي وردت فيها آية الكرسي؟",
+      "options": [
+        "البقرة",
+        "آل عمران",
+        "النساء",
+        "المائدة"
+      ],
+      "correctAnswer": "البقرة",
+      "explanation": "آية الكرسي هي الآية 255 من سورة البقرة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792704822417",
+      "category": "religion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "من النبي الذي بنى السفينة بأمر الله؟",
+      "options": [
+        "صالح عليه السلام",
+        "نوح عليه السلام",
+        "هود عليه السلام",
+        "شعيب عليه السلام"
+      ],
+      "correctAnswer": "نوح عليه السلام",
+      "explanation": "أمر الله نوحًا عليه السلام بصنع السفينة قبل الطوفان.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792704856793",
+      "category": "religion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "من النبي الذي أُلقي في النار فجعلها الله بردًا وسلامًا عليه؟",
+      "options": [
+        "إسماعيل عليه السلام",
+        "يعقوب عليه السلام",
+        "إبراهيم عليه السلام",
+        "زكريا عليه السلام"
+      ],
+      "correctAnswer": "إبراهيم عليه السلام",
+      "explanation": "تذكر سورة الأنبياء أن الله جعل النار بردًا وسلامًا على إبراهيم.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792704888442",
+      "category": "religion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "من أول الخلفاء الراشدين؟",
+      "options": [
+        "عمر بن الخطاب",
+        "علي بن أبي طالب",
+        "عثمان بن عفان",
+        "أبو بكر الصديق"
+      ],
+      "correctAnswer": "أبو بكر الصديق",
+      "explanation": "تولى أبو بكر الصديق الخلافة بعد وفاة النبي ﷺ.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792704919329",
+      "category": "religion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما اسم الغار الذي كان يتعبد فيه النبي ﷺ قبل البعثة؟",
+      "options": [
+        "غار ثور",
+        "غار حراء",
+        "غار أحد",
+        "غار بدر"
+      ],
+      "correctAnswer": "غار حراء",
+      "explanation": "كان النبي ﷺ يتعبد في غار حراء قبل نزول الوحي.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792704951482",
+      "category": "religion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما أول مسجد بناه النبي ﷺ بعد الهجرة؟",
+      "options": [
+        "مسجد قباء",
+        "المسجد النبوي",
+        "المسجد الأقصى",
+        "المسجد الحرام"
+      ],
+      "correctAnswer": "مسجد قباء",
+      "explanation": "يُعرف مسجد قباء بأنه أول مسجد بناه النبي ﷺ بعد الهجرة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792704985097",
+      "category": "religion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "من الصحابي الذي لُقّب بالفاروق؟",
+      "options": [
+        "أبو عبيدة بن الجراح",
+        "خالد بن الوليد",
+        "عمر بن الخطاب",
+        "بلال بن رباح"
+      ],
+      "correctAnswer": "عمر بن الخطاب",
+      "explanation": "اشتهر عمر بن الخطاب رضي الله عنه بلقب الفاروق.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792705031552",
+      "category": "religion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما اسم أم النبي محمد ﷺ؟",
+      "options": [
+        "حليمة السعدية",
+        "خديجة بنت خويلد",
+        "فاطمة بنت أسد",
+        "آمنة بنت وهب"
+      ],
+      "correctAnswer": "آمنة بنت وهب",
+      "explanation": "آمنة بنت وهب هي والدة النبي محمد ﷺ.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792705069873",
+      "category": "religion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "أي نبي ارتبطت قصته بتفسير رؤيا ملك مصر؟",
+      "options": [
+        "يوسف عليه السلام",
+        "داود عليه السلام",
+        "سليمان عليه السلام",
+        "لوط عليه السلام"
+      ],
+      "correctAnswer": "يوسف عليه السلام",
+      "explanation": "فسّر يوسف عليه السلام رؤيا الملك المتعلقة بسنوات الخصب والقحط.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792706660134",
+      "category": "religion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما اسم الليلة التي نزل فيها القرآن، كما ورد في سورة القدر؟",
+      "options": [
+        "ليلة النصف من شعبان",
+        "ليلة الإسراء",
+        "ليلة القدر",
+        "ليلة الجمعة"
+      ],
+      "correctAnswer": "ليلة القدر",
+      "explanation": "تذكر سورة القدر أن القرآن أُنزل في ليلة القدر.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792706693510",
+      "category": "religion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما اسم أم المؤمنين التي كانت أول زوجات النبي ﷺ؟",
+      "options": [
+        "عائشة بنت أبي بكر",
+        "حفصة بنت عمر",
+        "أم سلمة",
+        "خديجة بنت خويلد"
+      ],
+      "correctAnswer": "خديجة بنت خويلد",
+      "explanation": "خديجة رضي الله عنها كانت أول زوجات النبي ﷺ.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792706733182",
+      "category": "religion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "في أي شهر هجري يؤدي المسلمون مناسك الحج الأساسية؟",
+      "options": [
+        "رمضان",
+        "ذو الحجة",
+        "رجب",
+        "محرم"
+      ],
+      "correctAnswer": "ذو الحجة",
+      "explanation": "تؤدى مناسك الحج في شهر ذي الحجة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792706766606",
+      "category": "religion",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما السورة التي وردت فيها قصة أصحاب الكهف؟",
+      "options": [
+        "مريم",
+        "الكهف",
+        "الأنبياء",
+        "القصص"
+      ],
+      "correctAnswer": "الكهف",
+      "explanation": "تروي سورة الكهف قصة الفتية الذين لجؤوا إلى الكهف.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792706802830",
+      "category": "religion",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "من النبي الذي أُعطي الزبور؟",
+      "options": [
+        "داود عليه السلام",
+        "سليمان عليه السلام",
+        "إسحاق عليه السلام",
+        "إلياس عليه السلام"
+      ],
+      "correctAnswer": "داود عليه السلام",
+      "explanation": "ذكر القرآن أن الله آتى داود زبورًا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792706863533",
+      "category": "religion",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "من الصحابي الذي جمع الناس على مصحف موحّد وأرسل نسخه إلى الأمصار؟",
+      "options": [
+        "أبو بكر الصديق",
+        "عمر بن الخطاب",
+        "عثمان بن عفان",
+        "علي بن أبي طالب"
+      ],
+      "correctAnswer": "عثمان بن عفان",
+      "explanation": "أمر عثمان رضي الله عنه بنسخ المصاحف وإرسالها إلى الأمصار، اعتمادًا على الجمع السابق.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792706889806",
+      "category": "religion",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما أول غزوة كبرى وقعت بين المسلمين وقريش بعد الهجرة؟",
+      "options": [
+        "أحد",
+        "بدر",
+        "الخندق",
+        "حنين"
+      ],
+      "correctAnswer": "بدر",
+      "explanation": "وقعت غزوة بدر في السنة الثانية للهجرة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792706967565",
+      "category": "religion",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "من الصحابي الذي اشتهر بلقب «ترجمان القرآن»؟",
+      "options": [
+        "أبو هريرة",
+        "زيد بن ثابت",
+        "عبد الله بن عمر",
+        "عبد الله بن عباس"
+      ],
+      "correctAnswer": "عبد الله بن عباس",
+      "explanation": "اشتهر عبد الله بن عباس رضي الله عنهما بالعلم بتفسير القرآن.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792707002389",
+      "category": "religion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما السورة التي سُمّيت باسم امرأة؟",
+      "options": [
+        "المجادلة",
+        "النساء",
+        "مريم",
+        "الممتحنة"
+      ],
+      "correctAnswer": "مريم",
+      "explanation": "سورة مريم سُمّيت باسم مريم عليها السلام.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792707047709",
+      "category": "religion",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "كم سنة مكث النبي نوح عليه السلام في قومه يدعوهم، وفق ما ورد في القرآن؟",
+      "options": [
+        "300 سنة",
+        "500 سنة",
+        "950 سنة",
+        "1000 سنة"
+      ],
+      "correctAnswer": "950 سنة",
+      "explanation": "ورد في سورة العنكبوت أنه لبث في قومه ألف سنة إلا خمسين عامًا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792707086973",
+      "category": "religion",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما اسم الصلح الذي عُقد بين النبي ﷺ وقريش في السنة السادسة للهجرة؟",
+      "options": [],
+      "correctAnswer": "صلح الحديبية",
+      "explanation": "عُقد صلح الحديبية في السنة السادسة للهجرة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792707122340",
+      "category": "religion",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "من الصحابي الذي تولى كتابة الوحي واشتهر بدوره في جمع القرآن في عهد أبي بكر؟",
+      "options": [
+        "زيد بن ثابت",
+        "خباب بن الأرت",
+        "سعد بن معاذ",
+        "أبو الدرداء"
+      ],
+      "correctAnswer": "زيد بن ثابت",
+      "explanation": "كلّف أبو بكر زيد بن ثابت بجمع القرآن بعد معركة اليمامة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792707158917",
+      "category": "religion",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما السورة التي ورد فيها ذكر غزوة حنين؟",
+      "options": [
+        "الأنفال",
+        "الفتح",
+        "التوبة",
+        "الأحزاب"
+      ],
+      "correctAnswer": "التوبة",
+      "explanation": "ورد ذكر حنين في سورة التوبة، في الآيات 25 وما بعدها.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792707200061",
+      "category": "religion",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "من النبي الذي كلّمه الله تكليمًا، كما ورد في القرآن؟",
+      "options": [
+        "عيسى عليه السلام",
+        "موسى عليه السلام",
+        "إبراهيم عليه السلام",
+        "آدم عليه السلام"
+      ],
+      "correctAnswer": "موسى عليه السلام",
+      "explanation": "ورد في سورة النساء أن الله كلّم موسى تكليمًا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792707248141",
+      "category": "religion",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما اسم المعركة التي استشهد فيها عدد كبير من قرّاء القرآن في عهد أبي بكر الصديق؟",
+      "options": [
+        "اليرموك",
+        "اليمامة",
+        "القادسية",
+        "صفين"
+      ],
+      "correctAnswer": "اليمامة",
+      "explanation": "استشهد عدد من القرّاء في معركة اليمامة، وكان ذلك من دوافع جمع القرآن.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792707288380",
+      "category": "religion",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "أي سورة تُسمّى أيضًا «بني إسرائيل»؟",
+      "options": [
+        "طه",
+        "القصص",
+        "الزخرف",
+        "الإسراء"
+      ],
+      "correctAnswer": "الإسراء",
+      "explanation": "من أسماء سورة الإسراء «بني إسرائيل».",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792707322476",
+      "category": "religion",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما السورة التي وردت فيها البسملة مرتين؟",
+      "options": [
+        "التوبة",
+        "النمل",
+        "هود",
+        "القصص"
+      ],
+      "correctAnswer": "النمل",
+      "explanation": "تبدأ سورة النمل بالبسملة، وترد البسملة أيضًا في رسالة سليمان عليه السلام ضمن الآية 30.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792707363436",
+      "category": "religion",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "من الصحابي الذي أشار بحفر الخندق في غزوة الأحزاب؟",
+      "options": [
+        "سلمان الفارسي",
+        "المقداد بن عمرو",
+        "حذيفة بن اليمان",
+        "عمار بن ياسر"
+      ],
+      "correctAnswer": "سلمان الفارسي",
+      "explanation": "تذكر كتب السيرة أن سلمان الفارسي أشار بحفر الخندق حول المدينة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792707416012",
+      "category": "religion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما اسم البيعة التي بايع فيها عدد من الأنصار النبي ﷺ قبل الهجرة، وكانت تمهيدًا لها؟",
+      "options": [
+        "بيعة الرضوان",
+        "بيعة الشجرة",
+        "بيعة العقبة الثانية",
+        "بيعة الجعرانة"
+      ],
+      "correctAnswer": "بيعة العقبة الثانية",
+      "explanation": "كانت بيعة العقبة الثانية محطة مهمة قبل هجرة النبي ﷺ إلى المدينة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792707457379",
+      "category": "religion",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "أي سورة تضم آية الدين، وهي أطول آية في القرآن؟",
+      "options": [
+        "النساء",
+        "البقرة",
+        "المائدة",
+        "آل عمران"
+      ],
+      "correctAnswer": "البقرة",
+      "explanation": "آية الدين هي الآية 282 من سورة البقرة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792707499251",
+      "category": "religion",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "من الصحابي الذي كلّفه النبي ﷺ بتعلّم لغة اليهود لقراءة كتبهم؟",
+      "options": [
+        "معاذ بن جبل",
+        "عبد الله بن مسعود",
+        "أبو موسى الأشعري",
+        "زيد بن ثابت"
+      ],
+      "correctAnswer": "زيد بن ثابت",
+      "explanation": "ورد في الحديث أن النبي ﷺ أمر زيد بن ثابت بتعلّم كتابة اليهود.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792707534836",
+      "category": "religion",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "ما اسم العام الذي تُوفيت فيه خديجة رضي الله عنها وأبو طالب؟",
+      "options": [
+        "عام الفيل",
+        "عام الحزن",
+        "عام الفتح",
+        "عام الوفود"
+      ],
+      "correctAnswer": "عام الحزن",
+      "explanation": "اشتهر العام الذي توفي فيه أبو طالب وخديجة باسم عام الحزن.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792707572196",
+      "category": "religion",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "من الصحابي الذي كان أول مؤذن في الإسلام؟",
+      "options": [],
+      "correctAnswer": "بلال بن رباح",
+      "explanation": "اشتهر بلال بن رباح رضي الله عنه بأنه أول مؤذن في الإسلام.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792707601140",
+      "category": "religion",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "ما اسم الغزوة التي عُرفت أيضًا بغزوة العسرة؟",
+      "options": [
+        "بدر",
+        "أحد",
+        "خيبر",
+        "تبوك"
+      ],
+      "correctAnswer": "تبوك",
+      "explanation": "سُمّيت غزوة تبوك بغزوة العسرة بسبب مشقة السفر والظروف الصعبة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792707636804",
+      "category": "religion",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "أي نبي ورد اسمه في القرآن أكثر من غيره بحسب العدّ الشائع لأسماء الأنبياء؟",
+      "options": [
+        "إبراهيم عليه السلام",
+        "نوح عليه السلام",
+        "موسى عليه السلام",
+        "عيسى عليه السلام"
+      ],
+      "correctAnswer": "موسى عليه السلام",
+      "explanation": "يُذكر موسى عليه السلام في القرآن أكثر من سائر الأنبياء.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792707678325",
+      "category": "religion",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "ما السورة التي ورد فيها ذكر غزوة أُحد وأحداثها بصورة بارزة؟",
+      "options": [
+        "آل عمران",
+        "البقره",
+        "الصف",
+        "الحشر"
+      ],
+      "correctAnswer": "آل عمران",
+      "explanation": "تناولت آيات من سورة آل عمران أحداث أُحد ودروسها.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792707714580",
+      "category": "religion",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "ما اسم الصحابي الذي كان دليل النبي ﷺ وأبي بكر في طريق الهجرة إلى المدينة؟",
+      "options": [
+        "عبد الله بن مسعود",
+        "عبد الله بن أريقط",
+        "عامر بن فهيرة",
+        "أبو أيوب الأنصاري"
+      ],
+      "correctAnswer": "عبد الله بن أريقط",
+      "explanation": "استأجر النبي ﷺ وأبو بكر عبد الله بن أريقط ليدلهما على الطريق.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792707771435",
+      "category": "religion",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "ما آخر سورة في ترتيب المصحف؟",
+      "options": [
+        "الفلق",
+        "الإخلاص",
+        "الناس",
+        "الفاتحة"
+      ],
+      "correctAnswer": "الناس",
+      "explanation": "سورة الناس هي السورة رقم 114 والأخيرة في ترتيب المصحف.",
       "source": "",
       "tags": [],
       "status": "active"
