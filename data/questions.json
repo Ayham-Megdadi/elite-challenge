@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-22",
+  "updatedAt": "2026-10-24",
   "categories": [
     {
       "id": "geography",
@@ -426,17 +426,15 @@
       "type": "mcq",
       "question": "من هو مؤلف رواية «مئة عام من العزلة»؟",
       "options": [
-        "غابرييل غارسيا ماركيز",
         "بابلو نيرودا",
+        "غابرييل غارسيا ماركيز",
         "خورخي بورخيس",
         "ماريو بارغاس يوسا"
       ],
       "correctAnswer": "غابرييل غارسيا ماركيز",
       "explanation": "روائي كولومبي حائز على نوبل للأدب 1982.",
       "source": "أدب عالمي",
-      "tags": [
-        "روايات"
-      ],
+      "tags": [],
       "status": "active"
     },
     {
@@ -454,9 +452,7 @@
       "correctAnswer": "الصينية الماندرين",
       "explanation": "يتحدث بها أكثر من 900 مليون شخص كلغة أم.",
       "source": "إحصاءات لغوية",
-      "tags": [
-        "لغات"
-      ],
+      "tags": [],
       "status": "active"
     },
     {
@@ -466,17 +462,15 @@
       "type": "mcq",
       "question": "من هو الشاعر الملقب بـ«شاعر النيل»؟",
       "options": [
-        "حافظ إبراهيم",
+        "البحتري",
         "أحمد شوقي",
         "المتنبي",
-        "البحتري"
+        "حافظ إبراهيم"
       ],
       "correctAnswer": "حافظ إبراهيم",
       "explanation": "لُقّب حافظ إبراهيم بشاعر النيل وشاعر الشعب.",
       "source": "الأدب العربي الحديث",
-      "tags": [
-        "شعراء"
-      ],
+      "tags": [],
       "status": "active"
     },
     {
@@ -486,17 +480,15 @@
       "type": "mcq",
       "question": "ما اسم الجائزة الأمريكية المرموقة في مجال الصحافة؟",
       "options": [
-        "جائزة بوليتزر",
-        "جائزة بوكر",
         "جائزة غونكور",
+        "جائزة بوكر",
+        "جائزة بوليتزر",
         "جائزة نوبل"
       ],
       "correctAnswer": "جائزة بوليتزر",
       "explanation": "تُمنح سنويًا في الولايات المتحدة لمجال الصحافة والآداب.",
       "source": "معلومات عامة",
-      "tags": [
-        "جوائز"
-      ],
+      "tags": [],
       "status": "active"
     },
     {
@@ -536,17 +528,15 @@
       "type": "mcq",
       "question": "ماذا يعني اختصار HTTP؟",
       "options": [
-        "بروتوكول نقل النص التشعبي",
         "بروتوكول نقل البريد",
+        "بروتوكول نقل النص التشعبي",
         "لغة ترميز النص التشعبي",
         "نظام ملفات الشبكة"
       ],
       "correctAnswer": "بروتوكول نقل النص التشعبي",
       "explanation": "HyperText Transfer Protocol.",
       "source": "مراجع شبكات",
-      "tags": [
-        "بروتوكولات"
-      ],
+      "tags": [],
       "status": "active"
     },
     {
@@ -577,17 +567,15 @@
       "type": "mcq",
       "question": "من هو مؤلف لغة البرمجة Python؟",
       "options": [
-        "غيدو فان روسم",
-        "جيمس غوسلينغ",
         "بريندان إيش",
+        "جيمس غوسلينغ",
+        "غيدو فان روسم",
         "دينيس ريتشي"
       ],
       "correctAnswer": "غيدو فان روسم",
       "explanation": "أطلقها عام 1991.",
       "source": "تاريخ لغات البرمجة",
-      "tags": [
-        "برمجة"
-      ],
+      "tags": [],
       "status": "active"
     },
     {
@@ -597,17 +585,15 @@
       "type": "mcq",
       "question": "أي خوارزمية تشفير غير متماثلة تعتمد على صعوبة تحليل الأعداد إلى عوامل أولية؟",
       "options": [
-        "RSA",
         "AES",
+        "RSA",
         "SHA-256",
         "ChaCha20"
       ],
       "correctAnswer": "RSA",
       "explanation": "AES وChaCha20 متماثلتان، وSHA-256 دالة تجزئة.",
       "source": "مراجع تشفير",
-      "tags": [
-        "تشفير"
-      ],
+      "tags": [],
       "status": "active"
     },
     {
@@ -1000,18 +986,15 @@
       "type": "mcq",
       "question": "دولة عربية لا تطل على البحر وعاصمتها الخرطوم؟",
       "options": [
-        "السودان",
-        "تشاد",
         "مالي",
+        "تشاد",
+        "السودان",
         "النيجر"
       ],
       "correctAnswer": "السودان",
       "explanation": "السودان دولة غير ساحلية وعاصمتها الخرطوم.",
       "source": "معلومات جغرافية",
-      "tags": [
-        "دول",
-        "عواصم"
-      ],
+      "tags": [],
       "status": "active"
     },
     {
@@ -1021,17 +1004,15 @@
       "type": "mcq",
       "question": "دولة أوروبية غير ساحلية يحدها جارَان فقط وعاصمتها أندورا لا فيلا؟",
       "options": [
-        "أندورا",
+        "موناكو",
         "ليختنشتاين",
         "سان مارينو",
-        "موناكو"
+        "أندورا"
       ],
       "correctAnswer": "أندورا",
       "explanation": "تحدها فرنسا وإسبانيا فقط.",
       "source": "معلومات جغرافية",
-      "tags": [
-        "دول صغيرة"
-      ],
+      "tags": [],
       "status": "active"
     },
     {
@@ -1041,17 +1022,15 @@
       "type": "mcq",
       "question": "دولة في المحيط الهادئ عاصمتها نوكو ألوفا؟",
       "options": [
-        "تونغا",
         "ساموا",
+        "تونغا",
         "فيجي",
         "توفالو"
       ],
       "correctAnswer": "تونغا",
       "explanation": "نوكو ألوفا هي عاصمة مملكة تونغا.",
       "source": "معلومات جغرافية",
-      "tags": [
-        "جزر المحيط الهادئ"
-      ],
+      "tags": [],
       "status": "active"
     },
     {
@@ -4605,6 +4584,1117 @@
       ],
       "correctAnswer": "الناس",
       "explanation": "سورة الناس هي السورة رقم 114 والأخيرة في ترتيب المصحف.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792830506589",
+      "category": "culture",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما أكبر كوكب في المجموعة الشمسية؟",
+      "options": [],
+      "correctAnswer": "المشتري",
+      "explanation": "المشتري هو أكبر كواكب المجموعة الشمسية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792830542981",
+      "category": "culture",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما اللغة الرسمية في البرازيل؟",
+      "options": [],
+      "correctAnswer": "البرتغالية",
+      "explanation": "البرتغالية هي اللغة الرسمية في البرازيل.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792830582997",
+      "category": "culture",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما العضو الذي يضخ الدم إلى أنحاء الجسم؟",
+      "options": [],
+      "correctAnswer": "القلب",
+      "explanation": "يضخ القلب الدم عبر الجهاز الدوري.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792830602829",
+      "category": "culture",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما العملة الرسمية في اليابان؟",
+      "options": [
+        "اليوان",
+        "الين",
+        "البات",
+        "الوون"
+      ],
+      "correctAnswer": "الين",
+      "explanation": "الين هو العملة الرسمية لليابان.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792830647293",
+      "category": "culture",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "كم عدد أضلاع الشكل السداسي؟",
+      "options": [],
+      "correctAnswer": "ستة",
+      "explanation": "للشكل السداسي ستة أضلاع.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792830668397",
+      "category": "culture",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "أي حيوان يُعرف بأنه أكبر حيوان حي على الأرض؟",
+      "options": [],
+      "correctAnswer": "الحوت الأزرق",
+      "explanation": "الحوت الأزرق أكبر الحيوانات المعروفة من حيث الكتلة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792830688741",
+      "category": "culture",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما الجهاز المستخدم لقياس درجة الحرارة؟",
+      "options": [
+        "البارومتر",
+        "الأنيمومتر",
+        "الترمومتر",
+        "مقياس الزلازل"
+      ],
+      "correctAnswer": "الترمومتر",
+      "explanation": "يُستخدم الترمومتر لقياس درجة الحرارة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792830735101",
+      "category": "culture",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "كم دقيقة في الساعة الواحدة؟",
+      "options": [],
+      "correctAnswer": "60",
+      "explanation": "تتكون الساعة من 60 دقيقة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792830757813",
+      "category": "culture",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما اسم الفن الذي يعتمد على ترتيب الكلمات بطريقة موزونة وإيقاعية؟",
+      "options": [],
+      "correctAnswer": "الشعر",
+      "explanation": "يعتمد الشعر على اللغة والإيقاع، وقد يلتزم الوزن والقافية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792830784700",
+      "category": "culture",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما العنصر الكيميائي الذي رمزه Fe؟",
+      "options": [
+        "الفلور",
+        "الفرانسيوم",
+        "الفسفور",
+        "الحديد"
+      ],
+      "correctAnswer": "الحديد",
+      "explanation": "Fe هو الرمز الكيميائي للحديد.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792830825908",
+      "category": "culture",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "من رسم لوحة الموناليزا؟",
+      "options": [],
+      "correctAnswer": "ليوناردو دا فينشي",
+      "explanation": "رسم ليوناردو دا فينشي لوحة الموناليزا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792830847684",
+      "category": "culture",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما الغاز الذي تمتصه النباتات من الهواء خلال عملية البناء الضوئي؟",
+      "options": [
+        "ثاني أكسيد الكربون",
+        "الأكسجين",
+        "الهيدروجين",
+        "النيتروجين"
+      ],
+      "correctAnswer": "ثاني أكسيد الكربون",
+      "explanation": "تستخدم النباتات ثاني أكسيد الكربون والماء لصنع السكريات باستخدام الضوء.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792830886500",
+      "category": "culture",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما عاصمة أستراليا؟",
+      "options": [
+        "سيدني",
+        "ملبورن",
+        "كانبيرا",
+        "بيرث"
+      ],
+      "correctAnswer": "كانبيرا",
+      "explanation": "كانبيرا هي عاصمة أستراليا، وليست سيدني.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792830922596",
+      "category": "culture",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما أكبر محيط في العالم؟",
+      "options": [],
+      "correctAnswer": "المحيط الهادئ",
+      "explanation": "المحيط الهادئ هو أكبر محيط على الأرض.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792830954164",
+      "category": "culture",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "أي كوكب يُعرف بالكوكب الأحمر؟",
+      "options": [
+        "عطارد",
+        "المريخ",
+        "الزهرة",
+        "أورانوس"
+      ],
+      "correctAnswer": "المريخ",
+      "explanation": "يبدو المريخ أحمر بسبب أكاسيد الحديد في تربته وغباره.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792830991659",
+      "category": "culture",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما وحدة قياس شدة التيار الكهربائي؟",
+      "options": [
+        "الفولت",
+        "الواط",
+        "الأوم",
+        "الأمبير"
+      ],
+      "correctAnswer": "الأمبير",
+      "explanation": "الأمبير هو وحدة قياس شدة التيار الكهربائي.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831025148",
+      "category": "culture",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "من مؤلف رواية «البؤساء»؟",
+      "options": [
+        "فيكتور هوغو",
+        "تشارلز ديكنز",
+        "ألكسندر دوما",
+        "غوستاف فلوبير"
+      ],
+      "correctAnswer": "فيكتور هوغو",
+      "explanation": "كتب فيكتور هوغو رواية البؤساء، ونُشرت عام 1862.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831059300",
+      "category": "culture",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما المعدن السائل عند درجة حرارة الغرفة في الظروف المعتادة؟",
+      "options": [
+        "الألومنيوم",
+        "الزئبق",
+        "النحاس",
+        "الفضة"
+      ],
+      "correctAnswer": "الزئبق",
+      "explanation": "الزئبق معدن سائل في درجات الحرارة المعتادة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831101764",
+      "category": "culture",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "كم عدد اللاعبين الأساسيين في فريق كرة القدم داخل الملعب عند بداية المباراة؟",
+      "options": [],
+      "correctAnswer": "11",
+      "explanation": "يتكوّن الفريق عادةً من 11 لاعبًا داخل الملعب، بمن فيهم حارس المرمى.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831141524",
+      "category": "culture",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما اسم العملية التي يتحول فيها الماء السائل إلى بخار؟",
+      "options": [],
+      "correctAnswer": "التبخر",
+      "explanation": "التبخر هو تحول السائل إلى غاز من سطحه.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831176538",
+      "category": "culture",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "أي لغة برمجة تُستخدم عادةً لإضافة التفاعل إلى صفحات الويب؟",
+      "options": [
+        "JavaScript",
+        "C",
+        "Assembly",
+        "SQL"
+      ],
+      "correctAnswer": "JavaScript",
+      "explanation": "تُستخدم JavaScript على نطاق واسع لإضافة التفاعل إلى صفحات الويب.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831212132",
+      "category": "culture",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما الدولة التي نشأت فيها الألعاب الأولمبية القديمة؟",
+      "options": [
+        "إيطاليا",
+        "اليونان",
+        "بريطانيا",
+        "مصر"
+      ],
+      "correctAnswer": "اليونان",
+      "explanation": "نشأت الألعاب الأولمبية القديمة في اليونان، في أولمبيا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831250467",
+      "category": "culture",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما الجزء المسؤول أساسًا عن معالجة المعلومات في الحاسوب؟",
+      "options": [
+        "وحدة المعالجة المركزية",
+        "لوحة المفاتيح",
+        "القرص الصلب وحده",
+        "مزود الطاقة"
+      ],
+      "correctAnswer": "وحدة المعالجة المركزية",
+      "explanation": "تنفذ وحدة المعالجة المركزية التعليمات وتعالج البيانات.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831284692",
+      "category": "culture",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "من العالم الذي صاغ قوانين الحركة الثلاثة في كتابه «المبادئ الرياضية للفلسفة الطبيعية»؟",
+      "options": [
+        "ألبرت أينشتاين",
+        "إسحاق نيوتن",
+        "غاليليو غاليلي",
+        "يوهانس كبلر"
+      ],
+      "correctAnswer": "إسحاق نيوتن",
+      "explanation": "نشر إسحاق نيوتن قوانين الحركة في كتابه الشهير عام 1687.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831334380",
+      "category": "culture",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما اسم الطبقة الخارجية الصلبة للأرض التي تضم القشرة والجزء العلوي الصلب من الوشاح؟",
+      "options": [
+        "الغلاف الصخري",
+        "الغلاف المائي",
+        "النواة الخارجية",
+        "الغلاف الجوي"
+      ],
+      "correctAnswer": "الغلاف الصخري",
+      "explanation": "يتكون الغلاف الصخري من القشرة والجزء العلوي الصلب من الوشاح.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831377579",
+      "category": "culture",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما المضيق الذي يفصل بين آسيا وأمريكا الشمالية؟",
+      "options": [
+        "مضيق جبل طارق",
+        "مضيق هرمز",
+        "مضيق ملقا",
+        "مضيق بيرينغ"
+      ],
+      "correctAnswer": "مضيق بيرينغ",
+      "explanation": "يفصل مضيق بيرينغ بين أقصى شرق روسيا وألاسكا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831412211",
+      "category": "culture",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "أي فيلسوف ألّف كتاب «الجمهورية»؟",
+      "options": [
+        "أرسطو",
+        "سقراط",
+        "أفلاطون",
+        "ديموقريطس"
+      ],
+      "correctAnswer": "أفلاطون",
+      "explanation": "الجمهورية من أشهر مؤلفات أفلاطون في الفلسفة السياسية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831510906",
+      "category": "culture",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما الوحدة الأساسية لقياس التردد؟",
+      "options": [
+        "الجول",
+        "الهرتز",
+        "النيوتن",
+        "الباسكال"
+      ],
+      "correctAnswer": "الهرتز",
+      "explanation": "الهرتز يساوي دورة واحدة في الثانية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831543915",
+      "category": "culture",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "أي عالم اشتهر بوضع نظام التسمية الثنائية للكائنات الحية؟",
+      "options": [
+        "تشارلز داروين",
+        "لويس باستور",
+        "كارل لينيوس",
+        "غريغور مندل"
+      ],
+      "correctAnswer": "كارل لينيوس",
+      "explanation": "أسهم كارل لينيوس في ترسيخ نظام التسمية الثنائية للكائنات.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831589490",
+      "category": "culture",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما اسم أعمق نقطة معروفة في المحيطات؟",
+      "options": [
+        "تشالنجر ديب",
+        "خندق بورتوريكو",
+        "خندق بيرو–تشيلي",
+        "خندق اليابان"
+      ],
+      "correctAnswer": "تشالنجر ديب",
+      "explanation": "تقع تشالنجر ديب في خندق ماريانا بالمحيط الهادئ.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831627427",
+      "category": "culture",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما العنصر الأكثر وفرة في الكون من حيث الكتلة؟",
+      "options": [
+        "الأكسجين",
+        "الكربون",
+        "الهيليوم",
+        "الهيدروجين"
+      ],
+      "correctAnswer": "الهيدروجين",
+      "explanation": "الهيدروجين هو العنصر الأكثر وفرة في الكون.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831661955",
+      "category": "culture",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "أي دولة تُعد موطنًا تاريخيًا لنظام الكتابة المعروف باسم المسمارية؟",
+      "options": [
+        "بلاد الرافدين",
+        "شبه الجزيرة الإسكندنافية",
+        "أمريكا الوسطى",
+        "أستراليا"
+      ],
+      "correctAnswer": "بلاد الرافدين",
+      "explanation": "ظهرت الكتابة المسمارية في بلاد الرافدين القديمة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831715788",
+      "category": "culture",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما اسم الظاهرة التي ينحني فيها الضوء عند انتقاله من وسط إلى آخر؟",
+      "options": [
+        "الانكسار",
+        "الانعكاس",
+        "الاستقطاب",
+        "الحيود"
+      ],
+      "correctAnswer": "الانكسار",
+      "explanation": "يحدث الانكسار عندما تتغير سرعة الضوء عند انتقاله بين وسطين.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831751620",
+      "category": "culture",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "أي عضو في جسم الإنسان ينتج الإنسولين؟",
+      "options": [
+        "الكبد",
+        "البنكرياس",
+        "الطحال",
+        "الغدة الدرقية"
+      ],
+      "correctAnswer": "البنكرياس",
+      "explanation": "تنتج خلايا بيتا في جزر البنكرياس هرمون الإنسولين.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831785083",
+      "category": "culture",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "ما الثابت الرياضي الذي يمثل نسبة محيط الدائرة إلى قطرها؟",
+      "options": [
+        "e",
+        "π",
+        "φ",
+        "√2"
+      ],
+      "correctAnswer": "π",
+      "explanation": "العدد π يساوي نسبة محيط أي دائرة إلى قطرها في الهندسة الإقليدية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831862762",
+      "category": "culture",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "ما اسم الحد الفاصل بين القشرة الأرضية والوشاح؟",
+      "options": [
+        "حد غوتنبرغ",
+        "حد تشاندراسيخار",
+        "حد موهوروفيتشيتش",
+        "حد ليمان"
+      ],
+      "correctAnswer": "حد موهوروفيتشيتش",
+      "explanation": "يُعرف هذا الحد اختصارًا باسم موهو.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831897563",
+      "category": "culture",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "أي حضارة طورت نظامًا للكتابة يُعرف باسم الخط المسماري في جنوب بلاد الرافدين؟",
+      "options": [
+        "الفينيقيون",
+        "الحيثيون",
+        "الإغريق",
+        "السومريون"
+      ],
+      "correctAnswer": "السومريون",
+      "explanation": "ارتبطت أقدم مراحل الكتابة المسمارية بالسومريين في جنوب بلاد الرافدين.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792831965266",
+      "category": "culture",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما اسم المجرة التي تقع فيها المجموعة الشمسية؟",
+      "options": [
+        "أندروميدا",
+        "درب التبانة",
+        "سحابة ماجلان الكبرى",
+        "مجرة المثلث"
+      ],
+      "correctAnswer": "درب التبانة",
+      "explanation": "تقع الشمس والمجموعة الشمسية في مجرة درب التبانة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792832025530",
+      "category": "culture",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "في نظرية المعلومات، ما وحدة قياس كمية المعلومات التي تمثل اختيارًا بين احتمالين متساويين؟",
+      "options": [
+        "بايت",
+        "هرتز",
+        "باود",
+        "بت"
+      ],
+      "correctAnswer": "بت",
+      "explanation": "البت هو وحدة المعلومات الأساسية، ويمثل إجابة ثنائية مثل 0 أو 1.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792832277424",
+      "category": "culture",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما الغاز الذي يحتاجه الإنسان للتنفس؟",
+      "options": [],
+      "correctAnswer": "الأكسجين",
+      "explanation": "يستخدم الجسم الأكسجين في عملية التنفس الخلوي.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792832293034",
+      "category": "culture",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما الرمز الكيميائي للماء؟",
+      "options": [
+        "CO₂",
+        "O₂",
+        "H₂O",
+        "NaCl"
+      ],
+      "correctAnswer": "H₂O",
+      "explanation": "يتكون جزيء الماء من ذرتي هيدروجين وذرة أكسجين.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792832338234",
+      "category": "culture",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما وظيفة لوحة المفاتيح؟",
+      "options": [],
+      "correctAnswer": "إدخال البيانات",
+      "explanation": "لوحة المفاتيح جهاز إدخال يُستخدم لكتابة النصوص والأوامر.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792832371041",
+      "category": "culture",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما وحدة قياس الزمن في النظام الدولي؟",
+      "options": [],
+      "correctAnswer": "الثانية",
+      "explanation": "الثانية هي وحدة الزمن الأساسية في النظام الدولي للوحدات.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792832397260",
+      "category": "culture",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما اسم العملية التي تحول فيها النباتات ضوء الشمس إلى طاقة كيميائية؟",
+      "options": [
+        "التخمّر",
+        "البناء الضوئي",
+        "النتح",
+        "التكاثف"
+      ],
+      "correctAnswer": "البناء الضوئي",
+      "explanation": "في البناء الضوئي، تستخدم النباتات الضوء لصنع مركبات عضوية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792832469321",
+      "category": "culture",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما وحدة قياس شدة التيار الكهربائي؟",
+      "options": [
+        "الأمبير",
+        "الفولت",
+        "الجول",
+        "الأوم"
+      ],
+      "correctAnswer": "الأمبير",
+      "explanation": "الأمبير هو وحدة قياس شدة التيار الكهربائي.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792832530802",
+      "category": "culture",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "كم بتًا يتكون منه عنوان IPv4؟",
+      "options": [
+        "16",
+        "32",
+        "64",
+        "128"
+      ],
+      "correctAnswer": "32",
+      "explanation": "عنوان IPv4 طوله 32 بتًا، بينما IPv6 طوله 128 بتًا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792832591561",
+      "category": "culture",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "أي نوع من الذاكرة يفقد محتواه عادةً عند انقطاع الكهرباء؟",
+      "options": [
+        "SSD",
+        "ROM",
+        "RAM",
+        "Blu-ray"
+      ],
+      "correctAnswer": "RAM",
+      "explanation": "ذاكرة RAM التقليدية متطايرة، لذا تفقد محتواها عند انقطاع الطاقة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792832827625",
+      "category": "culture",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "كم عدد أضلاع المثلث؟",
+      "options": [],
+      "correctAnswer": "ثلاثة",
+      "explanation": "المثلث شكل هندسي له ثلاثة أضلاع وثلاث زوايا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792832853176",
+      "category": "culture",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "في أي قارة تقع مصر؟",
+      "options": [],
+      "correctAnswer": "أفريقيا، مع امتداد سيناء إلى آسيا",
+      "explanation": "تقع معظم مصر في أفريقيا، بينما تقع شبه جزيرة سيناء في آسيا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792832880174",
+      "category": "culture",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما الحيوان المعروف بلقب سفينة الصحراء؟",
+      "options": [],
+      "correctAnswer": "الجمل",
+      "explanation": "اشتهر الجمل بهذا اللقب لقدرته على التكيف مع البيئات الصحراوية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792832904528",
+      "category": "culture",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "كم يومًا في السنة العادية؟",
+      "options": [],
+      "correctAnswer": "365",
+      "explanation": "السنة العادية تتكون من 365 يومًا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792832923896",
+      "category": "culture",
+      "difficulty": "easy",
+      "type": "open",
+      "question": "ما الرياضة التي تُستخدم فيها مضارب وكرة صفراء صغيرة فوق شبكة؟",
+      "options": [],
+      "correctAnswer": "التنس",
+      "explanation": "في التنس يتبادل اللاعبون ضرب الكرة فوق الشبكة باستخدام المضارب.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792832963872",
+      "category": "culture",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما المدينة التي تُعرف تاريخيًا باسم القسطنطينية؟",
+      "options": [
+        "إسطنبول",
+        "أثينا",
+        "روما",
+        "أنقرة"
+      ],
+      "correctAnswer": "إسطنبول",
+      "explanation": "إسطنبول هي المدينة التركية التي عُرفت تاريخيًا باسم القسطنطينية.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792833049656",
+      "category": "culture",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما اسم أكبر عضو في جسم الإنسان؟",
+      "options": [
+        "الكبد",
+        "الدماغ",
+        "الجلد",
+        "الرئة"
+      ],
+      "correctAnswer": "الجلد",
+      "explanation": "الجلد هو أكبر أعضاء جسم الإنسان من حيث المساحة والكتلة عمومًا.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792833092080",
+      "category": "culture",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "كم تساوي الزاوية القائمة؟",
+      "options": [
+        "45 درجة",
+        "90 درجة",
+        "180 درجة",
+        "360 درجة"
+      ],
+      "correctAnswer": "90 درجة",
+      "explanation": "قياس الزاوية القائمة هو 90 درجة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792833130550",
+      "category": "culture",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "أي رياضة يرتبط اسمها ببطولة ويمبلدون؟",
+      "options": [
+        "الغولف",
+        "الكريكيت",
+        "السباحة",
+        "التنس"
+      ],
+      "correctAnswer": "التنس",
+      "explanation": "ويمبلدون من أشهر بطولات التنس، وتُقام في لندن.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792833168063",
+      "category": "culture",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما اسم أول امرأة فازت بجائزة نوبل؟",
+      "options": [
+        "روزاليند فرانكلين",
+        "ماري كوري",
+        "جين أدامز",
+        "دوروثي هودجكن"
+      ],
+      "correctAnswer": "ماري كوري",
+      "explanation": "فازت ماري كوري بجائزة نوبل في الفيزياء عام 1903.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792833242767",
+      "category": "culture",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "من كتب ملحمة «الإلياذة» وفق التقليد الأدبي القديم؟",
+      "options": [
+        "سوفوكليس",
+        "هوميروس",
+        "هيرودوت",
+        "فرجيل"
+      ],
+      "correctAnswer": "هوميروس",
+      "explanation": "تُنسب ملحمتا الإلياذة والأوديسة إلى الشاعر الإغريقي هوميروس.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792833280368",
+      "category": "culture",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "ما اسم الظاهرة التي تسبب انحراف الضوء عند مروره قرب جسم ذي حافة أو عبر فتحة ضيقة؟",
+      "options": [
+        "التوصيل",
+        "التحلل الإشعاعي",
+        "الحيود",
+        "التكاثف"
+      ],
+      "correctAnswer": "الحيود",
+      "explanation": "الحيود هو انتشار الموجات وانحناؤها حول الحواف أو عبر الفتحات.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792833316328",
+      "category": "culture",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": "ما اسم المضيق الذي يصل البحر الأحمر بخليج عدن؟",
+      "options": [
+        "مضيق هرمز",
+        "باب المندب",
+        "مضيق ملقا",
+        "مضيق الدردنيل"
+      ],
+      "correctAnswer": "باب المندب",
+      "explanation": "يربط مضيق باب المندب البحر الأحمر بخليج عدن، ومنه إلى بحر العرب.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792833352264",
+      "category": "culture",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "أي فنان رسم لوحة «ليلة النجوم»؟",
+      "options": [
+        "كلود مونيه",
+        "فنسنت فان غوخ",
+        "رامبرانت",
+        "سلفادور دالي"
+      ],
+      "correctAnswer": "فنسنت فان غوخ",
+      "explanation": "رسم فان غوخ لوحة «ليلة النجوم» عام 1889.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792833395023",
+      "category": "culture",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "ما اسم أكبر قمر لكوكب زحل؟",
+      "options": [
+        "تيتان",
+        "أوروبا",
+        "فوبوس",
+        "غانيميد"
+      ],
+      "correctAnswer": "تيتان",
+      "explanation": "تيتان هو أكبر أقمار زحل، ويتميز بوجود غلاف جوي كثيف.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792833433110",
+      "category": "culture",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "ما الرياضة التي تُستخدم فيها مصطلحات «ضربة إرسال» و«ضربة ساحقة» بصورة بارزة؟",
+      "options": [
+        "المصارعة",
+        "التجديف",
+        "الرماية",
+        "الكرة الطائرة"
+      ],
+      "correctAnswer": "الكرة الطائرة",
+      "explanation": "الإرسال والضرب الساحق من المهارات الأساسية في الكرة الطائرة.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792833476695",
+      "category": "culture",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "ما اسم المعاهدة التي قسمت مناطق النفوذ بين إسبانيا والبرتغال خارج أوروبا عام 1494؟",
+      "options": [
+        "معاهدة فرساي",
+        "معاهدة أوترخت",
+        "صلح وستفاليا",
+        "معاهدة توردسيلاس"
+      ],
+      "correctAnswer": "معاهدة توردسيلاس",
+      "explanation": "اتفاق توردسيلاس عام 1494 رسم خطًا لتقسيم مناطق المطالبة بالأراضي بين التاجين الإسباني والبرتغالي.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792833510007",
+      "category": "culture",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "ما اسم المعركة البحرية الحاسمة التي شهدت هزيمة الأسطول الفرنسي الإسباني أمام بريطانيا عام 1805؟",
+      "options": [
+        "معركة الطرف الأغر",
+        "معركة واترلو",
+        "معركة هاستينغز",
+        "معركة السوم"
+      ],
+      "correctAnswer": "معركة الطرف الأغر",
+      "explanation": "كانت معركة الطرف الأغر انتصارًا بحريًا بريطانيًا بقيادة هوراشيو نيلسون.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792833553111",
+      "category": "culture",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "ما اسم النظرية التي تفسر انجراف القارات وتكوّن القشرة الأرضية وحركتها ضمن إطار موحد؟",
+      "options": [
+        "نظرية مركزية الأرض",
+        "نظرية الصفائح التكتونية",
+        "نظرية الاحتراق",
+        "نظرية الأثير"
+      ],
+      "correctAnswer": "نظرية الصفائح التكتونية",
+      "explanation": "تشرح نظرية الصفائح التكتونية حركة الصفائح الصخرية وتفسر كثيرًا من الزلازل والبراكين وتكوّن الجبال.",
+      "source": "",
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "id": "new-1792833587391",
+      "category": "culture",
+      "difficulty": "veryhard",
+      "type": "mcq",
+      "question": "من صاحب كتاب «المقدمة» الذي تناول العمران البشري والتاريخ والاجتماع؟",
+      "options": [
+        "ابن سينا",
+        "الفارابي",
+        "ابن خلدون",
+        "ابن بطوطة"
+      ],
+      "correctAnswer": "ابن خلدون",
+      "explanation": "ألّف ابن خلدون «المقدمة»، التي تُعد عملًا تأسيسيًا في دراسة التاريخ والعمران البشري.",
       "source": "",
       "tags": [],
       "status": "active"
